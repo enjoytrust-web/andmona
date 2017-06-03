@@ -71,7 +71,7 @@
 [class*="l-row"] {
 	margin-left: -#{$gutter};
 	margin-right: -#{$gutter};
-
+	font-size: 0;
 
 	&::before,
 	&::after {
