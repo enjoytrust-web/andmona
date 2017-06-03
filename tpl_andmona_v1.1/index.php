@@ -9,12 +9,12 @@
     <title>&amp;mona</title>
 
   <!-- StyleSheet -->
-  <link rel="stylesheet" href="lib/css/style.css">
-  <link rel="stylesheet" href="lib/css/slick.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url');?>/lib/css/style.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url');?>/lib/css/slick.css">
 
     <!-- Script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="js/slick.min.js"></script>
+  <script src="<?php bloginfo('template_url');?>/js/slick.min.js"></script>
 
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="">
@@ -53,7 +53,7 @@
         <div class="l-grid-12 padding0">
           <div class="border">
             <div class="img_mainvisual">
-              <img src="lib/image/mainvisual.png" alt="&amp;mona">
+              <img src="<?php bloginfo('template_url');?>/lib/image/mainvisual.png" alt="&amp;mona">
             </div>
             <!--
             <div class="scroll">
@@ -72,7 +72,7 @@
       <div class="l-row">
         <div class="l-grid-12 padding0">
           <h1>
-            <img src="lib/image/logo.png" alt="&amp;mona">
+            <img src="<?php bloginfo('template_url');?>/lib/image/logo.png" alt="&amp;mona">
           </h1>
           <h2>sports &times; music &times; fashion</h2>
           <p>スポーツ、音楽、ファッションの３要素を融合させて独自の新しい形に...</p>

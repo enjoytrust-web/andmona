@@ -3331,6 +3331,11 @@ grid system
   float: right;
 }
 
+[class*="l-full"] {
+  margin: 0 auto;
+  font-size: 0;
+}
+
 [class*="l-container"] {
   max-width: 1170px;
   margin-right: auto;
@@ -3342,7 +3347,6 @@ grid system
 [class*="l-row"] {
   margin-left: -15px;
   margin-right: -15px;
-  font-size: 0;
 }
 [class*="l-row"]::before, [class*="l-row"]::after {
   content: "";
@@ -3558,3 +3562,123 @@ grid system
 /*==============================
 -Custom
 ===============================*/
+/*------------------------------
+      common
+------------------------------*/
+body {
+  color: #fff;
+  background: #1a1a1a;
+}
+
+section {
+  position: relative;
+}
+
+.l-wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.l-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.padding0 {
+  padding: 0;
+}
+
+/*---------- top ----------*/
+.border {
+  height: 88vh;
+  border: 5px solid #fff;
+}
+
+div.img_mainvisual {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  width: 40rem;
+}
+
+/*---------- about ----------*/
+h1 {
+  width: 32rem;
+  margin: 0 auto 3.2rem;
+}
+
+h2 {
+  margin-bottom: 4rem;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+p:first-of-type {
+  margin-bottom: 2.4rem;
+}
+
+/*---------- gallery ----------*/
+div.item:first-child {
+  border: 1px solid #fff;
+}
+div.item:last-child {
+  border: 1px solid #fff;
+}
+
+.img_item {
+  padding-top: 100%;
+  position: relative;
+  background: url(../image/item.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.item_text {
+  padding-top: 100%;
+  position: relative;
+}
+
+.gallery {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+/*---------- adress ----------*/
+.height50vh {
+  height: 50vh;
+}
+
+.shop_info {
+  font-size: 1.4rem;
+  margin-bottom: 3.2rem;
+}
+.shop_info span {
+  display: block;
+  font-size: 2.4rem;
+  margin-bottom: .8rem;
+}
+
+.shop_info_list li {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.shop_info_list li span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+
+/*---------- footer ----------*/
