@@ -5,6 +5,7 @@
 ===============================*/
 //style start
 
+
 /*------------------------------
       common
 ------------------------------*/
@@ -22,7 +23,7 @@ section{
   height: 100vh;
 }
 
-.l-container{
+.position_center{
   @include position-center();
 }
 
@@ -30,42 +31,61 @@ section{
   padding: 0;
 }
 
+
 /*---------- top ----------*/
 .border{
   height: 88vh;
   border: 5px solid #fff;
+  position: relative;
 }
 
-div.img_mainvisual{
+.img_mainvisual{
   @include position-center();
   width: 40rem;
 }
 
+.scroll{
+  position: absolute;
+  bottom: 8rem;
+  left:50%;
+    transform:translateX(-50%);
+    text-align: center;
+
+    .fa-long-arrow-down{
+      font-size: 1.8rem;
+      margin-bottom: .8rem;
+    }
+
+    p{
+      font-size: 1.8rem;
+    }
+}
+
 
 /*---------- about ----------*/
-h1{
-  width: 32rem;
+.logo{
+  width: 24rem;
   margin: 0 auto 3.2rem;
 }
 
-h2{
-  margin-bottom: 4rem;
-  font-size: 3.2rem;
+.semititle{
+  margin-bottom: 3.2rem;
+  font-size: 2.4rem;
   text-align: center;
 }
 
-p{
+.about_text{
   font-size: 1.6rem;
   text-align: center;
 
   &:first-of-type{
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.6rem;
   }
 }
 
 
 /*---------- gallery ----------*/
-div.item{
+.item_border{
 
   &:first-child{
     border: 1px solid #fff;
@@ -76,54 +96,128 @@ div.item{
   }
 }
 
-.img_item{
+.item_textbox{
+  color: #fff;
   padding-top: 100%;
   position: relative;
-  background: url(../image/item.jpg);
-  background-size: cover;
-  background-position: center center;
 }
 
 .item_text{
-  padding-top: 100%;
-  position: relative;
-}
-
-.gallery{
   @include position-center();
   text-align: center;
-}
-
-
-/*---------- adress ----------*/
-.height50vh{
-  height: 50vh;
-}
-
-.shop_info{
-  font-size: 1.4rem;
-  margin-bottom: 3.2rem;
+  font-size: 1.8rem;
 
   span{
     display: block;
-    font-size: 2.4rem;
     margin-bottom: .8rem;
   }
 }
 
-.shop_info_list{
+.img_item{
+  padding-top: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.item1{
+  background-image: url(../image/item1.jpg);
+}
+
+.item2{
+  background-image: url(../image/item2.jpg);
+}
+
+.item3{
+  background-image: url(../image/item3.jpg);
+}
+
+.item4{
+  background-image: url(../image/item4.jpg);
+}
+
+.item5{
+  background-image: url(../image/item5.jpg);
+}
+
+.item6{
+  background-image: url(../image/item6.jpg);
+}
+
+
+/*---------- adress ----------*/
+.map_wrapper{
+  height: 50vh;
+  position: relative;
+}
+
+.shopinfo_wrapper{
+  @include position-center();
+}
+
+.shopinfo_title{
+  font-size: 1.4rem;
+  margin-bottom: 4.8rem;
+
+  span{
+    display: block;
+    font-size: 3.2rem;
+    margin-bottom: .8rem;
+  }
+}
+
+.shopinfo_discription{
 
   li{
-    font-size: 1.6rem;
-    margin-bottom: 1.6rem;
+    font-size: 1.4rem;
+    margin-bottom: 2.4rem;
 
     span{
       display: block;
+      font-size: 1.6rem;
       font-weight: bold;
       margin-bottom: .8rem;
     }
   }
 }
 
+.googlemap{
+  width: 100%;
+  height: 100%;
+}
+
 
 /*---------- footer ----------*/
+.l-footer{
+  height: auto;
+  padding:3rem 0;
+}
+
+.sns{
+  text-align: center;
+  margin-bottom: 2.4rem;
+
+  li{
+    display: inline-block;
+
+    &:nth-of-type(2){
+      margin: 0 4.8rem;
+    }
+  }
+
+}
+
+.sns_icon{
+  color: #fff;
+  font-size: 3.2rem;
+}
+
+.copyright{
+  font-size: 1.4rem;
+  font-weight: normal;
+  text-align: center;
+}
