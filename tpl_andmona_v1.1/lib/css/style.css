@@ -3331,11 +3331,6 @@ grid system
   float: right;
 }
 
-[class*="l-full"] {
-  margin: 0 auto;
-  font-size: 0;
-}
-
 [class*="l-container"] {
   max-width: 1170px;
   margin-right: auto;
@@ -3347,6 +3342,7 @@ grid system
 [class*="l-row"] {
   margin-left: -15px;
   margin-right: -15px;
+  font-size: 0;
 }
 [class*="l-row"]::before, [class*="l-row"]::after {
   content: "";
@@ -3563,23 +3559,20 @@ grid system
 -Custom
 ===============================*/
 /*------------------------------
-      common
+			common
 ------------------------------*/
 body {
   color: #fff;
   background: #1a1a1a;
 }
 
-section {
-  position: relative;
-}
-
 .l-wrapper {
   width: 100%;
   height: 100vh;
+  position: relative;
 }
 
-.l-container {
+.position_center {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3595,9 +3588,10 @@ section {
 .border {
   height: 88vh;
   border: 5px solid #fff;
+  position: relative;
 }
 
-div.img_mainvisual {
+.img_mainvisual {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3606,79 +3600,196 @@ div.img_mainvisual {
   width: 40rem;
 }
 
+.scroll {
+  position: absolute;
+  bottom: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.scroll .fa-long-arrow-down {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+  -webkit-animation: sdb 2.4s infinite;
+  animation: sdb 2.4s infinite;
+}
+@-webkit-keyframes sdb {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+.scroll p {
+  font-size: 1.8rem;
+}
+
 /*---------- about ----------*/
-h1 {
-  width: 32rem;
+.logo {
+  width: 24rem;
   margin: 0 auto 3.2rem;
 }
 
-h2 {
-  margin-bottom: 4rem;
-  font-size: 3.2rem;
+.semititle {
+  margin-bottom: 3.2rem;
+  font-size: 2.4rem;
   text-align: center;
 }
 
-p {
+.about_text {
   font-size: 1.6rem;
   text-align: center;
 }
-p:first-of-type {
-  margin-bottom: 2.4rem;
+.about_text:first-of-type {
+  margin-bottom: 1.6rem;
 }
 
 /*---------- gallery ----------*/
-div.item:first-child {
+.item_border:first-child {
   border: 1px solid #fff;
 }
-div.item:last-child {
+.item_border:last-child {
   border: 1px solid #fff;
 }
 
-.img_item {
+.item_textbox {
+  color: #fff;
   padding-top: 100%;
   position: relative;
-  background: url(../image/item.jpg);
-  background-size: cover;
-  background-position: center center;
 }
 
 .item_text {
-  padding-top: 100%;
-  position: relative;
-}
-
-.gallery {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
+  font-size: 1.8rem;
 }
-
-/*---------- adress ----------*/
-.height50vh {
-  height: 50vh;
-}
-
-.shop_info {
-  font-size: 1.4rem;
-  margin-bottom: 3.2rem;
-}
-.shop_info span {
+.item_text span {
   display: block;
-  font-size: 2.4rem;
   margin-bottom: .8rem;
 }
 
-.shop_info_list li {
-  font-size: 1.6rem;
-  margin-bottom: 1.6rem;
+.img_item {
+  padding-top: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-.shop_info_list li span {
+
+.item1 {
+  background-image: url(../image/item1.jpg);
+}
+
+.item2 {
+  background-image: url(../image/item2.jpg);
+}
+
+.item3 {
+  background-image: url(../image/item3.jpg);
+}
+
+.item4 {
+  background-image: url(../image/item4.jpg);
+}
+
+.item5 {
+  background-image: url(../image/item5.jpg);
+}
+
+.item6 {
+  background-image: url(../image/item6.jpg);
+}
+
+/*---------- adress ----------*/
+.map_wrapper {
+  height: 50vh;
+  position: relative;
+}
+
+.shopinfo_wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.shopinfo_title {
+  font-size: 1.4rem;
+  margin-bottom: 4.8rem;
+}
+.shopinfo_title span {
   display: block;
+  font-size: 3.2rem;
+  margin-bottom: .8rem;
+}
+
+.shopinfo_discription li {
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+}
+.shopinfo_discription li span {
+  display: block;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: .8rem;
 }
 
+.googlemap {
+  width: 100%;
+  height: 100%;
+}
+
 /*---------- footer ----------*/
+.l-footer {
+  height: auto;
+  padding: 3rem 0;
+}
+
+.sns {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.sns li {
+  display: inline-block;
+}
+.sns li:nth-of-type(2) {
+  margin: 0 4.8rem;
+}
+
+.sns_icon {
+  color: #fff;
+  font-size: 3.2rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  font-weight: normal;
+  text-align: center;
+}

@@ -55,11 +55,6 @@
 .left { float: left; }
 .right { float: right; }
 
-[class*="l-full"] {
-	margin: 0 auto;
-	font-size: 0;
-}
-
 [class*="l-container"] {
 	max-width: $maxwidth;
 	margin-right: auto;
@@ -365,11 +360,6 @@ $grid-12: 100%;
 
 @mixin l-offset-left-12 {
 	margin-left: $grid-12;
-}
-
-@mixin l-full {
-	margin: 0 auto;
-	font-size: 0;
 }
 
 @mixin l-container {
