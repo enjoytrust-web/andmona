@@ -14,7 +14,7 @@
 
     <!-- Script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/slick.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/js/jquery.easing.1.3.js"></script>
 
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="">
@@ -28,7 +28,7 @@
 
   <!-- OGP -->
   <!-- Facebook -->
-    <meta property="fb:admins" content="">
+  <meta property="fb:admins" content="">
   <meta property="og:url" content="">
   <meta property="og:type" content="">
   <meta property="og:title" content="">
@@ -66,7 +66,6 @@
     </div>
   </section>
 
-
   <section>
     <div class="l-wrapper">
       <div class="l-container position_center">
@@ -83,7 +82,6 @@
       </div>
     </div>
   </section>
-
 
   <section>
     <div class="l-wrapper">
@@ -127,10 +125,9 @@
             </a>
           </div>
         </div>
-        </div>
+      </div>
     </div>
   </section>
-
 
   <section>
     <div class="l-wrapper">
@@ -152,7 +149,7 @@
                   06-6211-3993
                 </li>
                 <li>
-                  <span>Adress</span>
+                  <span>Address</span>
                   〒542-0083 大阪市中央区東心斎橋2-3-22玉八ビル
                 </li>
               </ul>
@@ -165,7 +162,6 @@
       </div>
     </div>
   </section>
-
 
   <footer>
     <div class="l-wrapper l-footer">
@@ -196,12 +192,11 @@
     </div>
   </footer>
 
-
-  <script src="<?php bloginfo('template_url'); ?>/lib/js/app.js"></script>
+  <script src="<?php bloginfo('template_url');?>/lib/js/app.js"></script>
   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCJySDnXDlK5mSo9CPSOOUXvywXEo9wAGM"></script>
-  <script src="<?php bloginfo('template_url'); ?>/lib/js/map.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/lib/js/jquery.easing.1.3.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/lib/js/jquery.scrollify.min.js"></script>
+  <script src="<?php bloginfo('template_url');?>/lib/js/map.js"></script>
+  <script src="<?php bloginfo('template_url');?>/lib/js/jquery.easing.1.3.js"></script>
+  <!-- <script src="<?php bloginfo('template_url');?>/lib/js/jquery.scrollify.min.js"></script> -->
 </body>
 </html>
 <?php get_footer(); ?>

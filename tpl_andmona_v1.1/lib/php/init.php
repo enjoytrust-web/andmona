@@ -29,7 +29,7 @@ add_filter('admin_footer_text', 'custom_admin_footer');
 /* ======= Google Analytics ======= */
 function wp_add_googleanalytics() { ?>
 
-   //ここにアナリティクスのコードを入れてください。
+   <!--//ここにアナリティクスのコードを入れてください。-->
 
 <?php }
 add_action('wp_footer', 'wp_add_googleanalytics');
