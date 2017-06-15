@@ -3703,29 +3703,60 @@ body {
 }
 
 .item1 {
-  background-image: url(../image/item1.JPG);
+  background-image: url(../image/item1.jpg);
 }
 
 .item2 {
-  background-image: url(../image/item2.JPG);
+  background-image: url(../image/item2.jpg);
 }
 
 .item3 {
-  background-image: url(../image/item3.JPG);
+  background-image: url(../image/item3.jpg);
 }
 
 .item4 {
-  background-image: url(../image/item4.JPG);
+  background-image: url(../image/item4.jpg);
 }
 
 .item5 {
-  background-image: url(../image/item5.JPG);
+  background-image: url(../image/item5.jpg);
 }
 
 .item6 {
-  background-image: url(../image/item6.JPG);
+  background-image: url(../image/item6.jpg);
 }
 
+.fa-long-arrow-right {
+  -webkit-animation: sdb_ 2.4s infinite;
+  animation: sdb_ 2.4s infinite;
+}
+
+@-webkit-keyframes sdb_ {
+  0% {
+    transform: translate(-10px, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(10px, 0);
+    opacity: 0;
+  }
+}
+@keyframes sdb_ {
+  0% {
+    transform: translate(-10px, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(10px, 0);
+    opacity: 0;
+  }
+}
 /*---------- adress ----------*/
 .map_wrapper {
   height: 50vh;
@@ -3792,4 +3823,41 @@ body {
   font-size: 1.4rem;
   font-weight: normal;
   text-align: center;
+}
+
+/*------------------------------
+			animation
+------------------------------*/
+.fadeInDown {
+  -webkit-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
