@@ -142,7 +142,7 @@
 							<ul class="shopinfo_discription">
 								<li>
 									<span>SHOP NAME</span>
-									Club Ammona ( http://ammona.jp/ )
+									Club Ammona ( <a href="http://ammona.jp/">http://ammona.jp/</a> )
 								</li>
 								<li>
 									<span>Tel</span>
