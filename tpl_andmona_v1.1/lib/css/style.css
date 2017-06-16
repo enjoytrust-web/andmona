@@ -3590,6 +3590,11 @@ body {
   border: 5px solid #fff;
   position: relative;
 }
+@media only screen and (max-width: 767px) {
+  .border {
+    height: 95vh;
+  }
+}
 
 .img_mainvisual {
   position: absolute;
@@ -3598,6 +3603,11 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
   width: 40rem;
+}
+@media only screen and (max-width: 767px) {
+  .img_mainvisual {
+    width: 24rem;
+  }
 }
 
 .scroll {
@@ -3612,6 +3622,11 @@ body {
   margin-bottom: 2.4rem;
   -webkit-animation: sdb 2.4s infinite;
   animation: sdb 2.4s infinite;
+}
+@media only screen and (max-width: 767px) {
+  .scroll .fa-long-arrow-down {
+    font-size: 1.6rem;
+  }
 }
 @-webkit-keyframes sdb {
   0% {
@@ -3642,25 +3657,55 @@ body {
 .scroll p {
   font-size: 1.8rem;
 }
+@media only screen and (max-width: 767px) {
+  .scroll p {
+    font-size: 1.6rem;
+  }
+}
 
 /*---------- about ----------*/
 .logo {
   width: 24rem;
   margin: 0 auto 3.2rem;
 }
+@media only screen and (max-width: 767px) {
+  .logo {
+    width: 18rem;
+    margin: 0 auto 2.4rem;
+  }
+}
 
 .semititle {
-  margin-bottom: 3.2rem;
   font-size: 2.4rem;
   text-align: center;
+  margin-bottom: 3.2rem;
+}
+@media only screen and (max-width: 767px) {
+  .semititle {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
 }
 
 .about_text {
   font-size: 1.6rem;
   text-align: center;
 }
-.about_text:first-of-type {
+@media only screen and (max-width: 767px) {
+  .about_text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+}
+.about_text span {
+  display: block;
   margin-bottom: 1.6rem;
+}
+@media only screen and (max-width: 767px) {
+  .about_text span {
+    display: inline;
+    margin-bottom: 0;
+  }
 }
 
 /*---------- gallery ----------*/

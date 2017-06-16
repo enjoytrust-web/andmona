@@ -1,6 +1,17 @@
+/*---------- SVG animation ----------*/
+
+$(function() {
+
+	var mySVG = $('svg').drawsvg();
+		mySVG.drawsvg('animate');
+
+});
+
+
+
 /*---------- scrollify ----------*/
 
- $(function() {
+$(function() {
 
      $.scrollify({
        section : "section",
@@ -8,10 +19,10 @@
        easing: "easeOutQuart",
      });
 
- });
+});
 
 
- /*---------- scroll animation ----------*/
+/*---------- animation ----------*/
 
 $('.animation').css('visibility','hidden');
 
