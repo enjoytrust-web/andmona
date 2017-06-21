@@ -9,9 +9,22 @@
 /*------------------------------
 			common
 ------------------------------*/
-body{
+
+.body{
 	color: #fff;
 	background: #1a1a1a;
+	-webkit-animation: fadeIn 1s ease 0s 1 normal;
+	animation: fadeIn 1s ease 0s 1 normal;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
 
 .l-wrapper{
@@ -30,13 +43,67 @@ body{
 
 
 /*---------- top ----------*/
+
 .border{
 	height: 88vh;
-	border: 5px solid #fff;
 	position: relative;
 
 	@include max(767) {
 		height: 95vh;
+	}
+
+	.border_animation{
+		background: #fff;
+		position: absolute;
+		-webkit-transition:all 2s ease-in-out;
+	    transition:all 2s ease-in-out;
+	}
+
+	.border_top{
+		width: 0;
+		height:5px;
+		top:0;
+		left:0;
+	}
+
+	.border_right{
+		height:0;
+		width :5px;
+		right:0;
+		top:0;
+	}
+
+	.border_bottom{
+		width: 0;
+		height:5px;
+		bottom:0;
+		right:0;
+	}
+
+	.border_left{
+		height:0;
+		width :5px;
+		left:0;
+		bottom:0;
+	}
+}
+
+.active{
+
+	.border_top{
+		width: 100%;
+	}
+
+	.border_right{
+		height:100%;
+	}
+
+	.border_bottom{
+		width: 100%;
+	}
+
+	.border_left{
+		height:100%;
 	}
 }
 
@@ -47,21 +114,80 @@ body{
 	@include max(767) {
 		width: 24rem;
 	}
+}
 
+.svg_animation{
+	fill: none;
+	stroke:#fff;
+	stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    -webkit-animation: DASH 2s ease-in 1s forwards;
+    animation: DASH 2s ease-in 1s forwards;
+}
+
+@keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+        fill: rgba(255, 255, 255, 0);
+    }
+    /*50% {
+        stroke-dashoffset: 2000;
+        fill: rgba(255, 255, 255, 0.5);
+    }*/
+    /*70% {
+        stroke-dashoffset: 1000;
+        fill: rgba(255, 255, 255, 0.4);
+    }*/
+    100% {
+        stroke-dashoffset: 0;
+        fill: rgba(255, 255, 255, 1);
+    }
+}
+
+@-webkit-keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+        fill: rgba(255, 255, 255, 0);
+    }
+    /*50% {
+        stroke-dashoffset: 2000;
+        fill: rgba(255, 255, 255, 0.5);
+    }*/
+    /*70% {
+        stroke-dashoffset: 1000;
+        fill: rgba(255, 255, 255, 0.4);
+    }*/
+    100% {
+        stroke-dashoffset: 0;
+        fill: rgba(255, 255, 255, 1);
+    }
 }
 
 .scroll{
+	opacity: 0;
 	position: absolute;
 	bottom: 8rem;
 	left:50%;
   	transform:translateX(-50%);
   	text-align: center;
+  	-webkit-animation: fadeIn_scroll 2s ease 3s 1 forwards;
+	animation: fadeIn_scroll 2s ease 3s 1 forwards;
+
+	@keyframes fadeIn_scroll {
+	    0% {opacity: 0}
+	    100% {opacity: 1}
+	}
+
+	@-webkit-keyframes fadeIn_scroll {
+	    0% {opacity: 0}
+	    100% {opacity: 1}
+	}
 
   	.fa-long-arrow-down{
   		font-size: 1.8rem;
   		margin-bottom: 2.4rem;
-  		-webkit-animation: sdb 2.4s infinite;
-		animation: sdb 2.4s infinite;
+  		-webkit-animation: sdb 2.4s ease 0s infinite;
+		animation: sdb 2.4s ease 0s infinite;
 
 		@include max(767) {
 			font-size: 1.6rem;
@@ -111,20 +237,46 @@ body{
 
 
 /*---------- about ----------*/
-.logo{
-	width: 24rem;
-	margin: 0 auto 3.2rem;
+
+.miniborder{
+	display: block;
+	background: #fff;
+	width: 24px;
+	height: 3px;
+	margin-bottom: 4.8rem;
+}
+
+.title_about{
+	font-size: 1.8rem;
+	text-align: left;
+	margin-bottom: 4.8rem;
 
 	@include max(767) {
 		width: 18rem;
 		margin: 0 auto 2.4rem;
 	}
+
+	.font-size1{
+		font-size: 4.8rem;
+		margin-right: .8rem;
+	}
+
+	.font-size2{
+		font-size: 3.2rem;
+		margin-right: .8rem;
+	}
+
+	.font-size3{
+		font-size: 3.2rem;
+		margin-right: .8rem;
+	}
 }
 
-.semititle{
-	font-size: 2.4rem;
-	text-align: center;
-	margin-bottom: 3.2rem;
+.semititle_about{
+	font-size: 1.6em;
+	font-weight: normal;
+	text-align: left;
+	margin-bottom: 4.8rem;
 
 	@include max(767) {
 		font-size: 2.4rem;
@@ -132,9 +284,9 @@ body{
 	}
 }
 
-.about_text{
+.text_about{
 	font-size: 1.6rem;
-	text-align: center;
+	text-align: left;
 
 	@include max(767) {
 		font-size: 1.4rem;
@@ -154,14 +306,15 @@ body{
 
 
 /*---------- gallery ----------*/
+
 .item_border{
 
 	&:first-child{
-		border: 1px solid #fff;
+		border: 2px solid #fff;
 	}
 
 	&:last-child{
-		border: 1px solid #fff;
+		border: 2px solid #fff;
 	}
 }
 
@@ -217,40 +370,53 @@ body{
 	background-image: url(../image/item6.jpg);
 }
 
-.fa-long-arrow-right{
-	-webkit-animation: sdb_ 2.4s infinite;
-	animation: sdb_ 2.4s infinite;
-}
+.ripple{
+	position: relative;
 
-@-webkit-keyframes sdb_ {
-	0% {
-		transform: translate(0, 0);
+	&::before{
+		@include position-center();
+		content: '';
+		width: 2px;
+		height: 2px;
+		border-radius: 100%;
+		box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+		-webkit-animation: ripple 2.5s infinite;
+		animation: ripple 2.5s infinite;
+		box-sizing: border-box;
 		opacity: 0;
+		z-index: -1;
 	}
 
-	50% {
-		opacity: 1;
+	@-webkit-keyframes ripple {
+		0% {
+			opacity: 0;
+		}
+		30% {
+			opacity: 1;
+		}
+		60% {
+			box-shadow: 0 0 0 80px rgba(255,255,255,.1);
+			opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
 	}
 
-	100% {
-		transform: translate(0, 0);
-		opacity: 0;
-	}
-}
-
-@keyframes sdb_ {
-	0% {
-		transform: translate(0, 0);
-		opacity: 0;
-	}
-
-	50% {
-		opacity: 1;
-	}
-
-	100% {
-		transform: translate(0, 0);
-		opacity: 0;
+	@keyframes ripple {
+		0% {
+			opacity: 0;
+		}
+		30% {
+			opacity: 1;
+		}
+		80% {
+			box-shadow: 0 0 0 80px rgba(255,255,255,.1);
+			opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
 	}
 }
 

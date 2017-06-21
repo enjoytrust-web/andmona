@@ -1,23 +1,21 @@
-/*---------- SVG animation ----------*/
-
-$(function() {
-
-	var mySVG = $('svg').drawsvg();
-		mySVG.drawsvg('animate');
-
-});
-
-
-
 /*---------- scrollify ----------*/
 
 $(function() {
 
      $.scrollify({
        section : "section",
-       scrollSpeed: 2000,
+       scrollSpeed: 1600,
        easing: "easeOutQuart",
      });
+
+});
+
+
+/*---------- border animation ----------*/
+
+$(function() {
+
+    $('.border').addClass('active');
 
 });
 
