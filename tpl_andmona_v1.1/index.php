@@ -331,10 +331,12 @@
 									</g>
 								</svg>
 							</div>
-							<div class="scroll">
-								<i class="fa fa-long-arrow-down" aria-hidden="true"></i>
-								<p>Scroll</p>
-							</div>
+							<a href="#section_about" class="scroll_button">
+								<div class="scroll">
+									<i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+									<p>Scroll</p>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -343,31 +345,38 @@
 	</section>
 
 
-	<section class="section_about">
+	<section class="section_about scroll_animation" id="section_about">
 		<div class="l-wrapper">
 			<div class="l-container position_center">
 				<div class="l-row">
-					<div class="l-grid-12 padding0">
-						<span class="miniborder"></span>
+					<div class="l-grid-7 padding0">
+						<!--<span class="miniborder"></span>-->
 						<h1 class="title_about">
 							<span class="font-size1">WHAT</span>
 							<span class="font-size2">IS</span>
 							<span class="font-size3">&amp;mona</span>
 							...
 						</h1>
-						<h2 class="semititle_about">sports &times; music &times; fashion</h2>
+						<h2 class="semititle_about">
+							<span class="rotate">sports</span>
+							 &times;
+							<span class="rotate">music</span>
+							 &times;
+							<span class="rotate">fashion</span>
+						</h2>
 						<p class="text_about">
 							<span>スポーツ、音楽、ファッションの３要素を融合させて独自の新しい形に...</span>
 							高感度のナイトクラバーにクラブファッションとライフスタイルを提案します
 						</p>
 					</div>
+					<div class="l-grid-5 padding0"></div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 
-	<section class="section_gallery">
+	<section class="section_gallery scroll_animation">
 		<div class="l-wrapper">
 			<div class="l-container position_center">
 				<div class="l-row">
@@ -418,7 +427,7 @@
 	</section>
 
 
-	<section class="animation">
+	<section class="animation scroll_animation">
 		<div class="l-wrapper">
 			<div class="l-container position_center">
 				<div class="l-row">
@@ -442,6 +451,23 @@
 									〒542-0083 大阪市中央区東心斎橋2-3-22玉八ビル
 								</li>
 							</ul>
+							<ul class="sns">
+								<li>
+									<a href="https://twitter.com/and_mona_info">
+										<i class="fa fa-twitter sns_icon" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-facebook sns_icon" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/and_mona_/">
+										<i class="fa fa-instagram sns_icon" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 					<div class="l-grid-6 padding0 map_wrapper">
@@ -449,10 +475,38 @@
 					</div>
 				</div>
 			</div>
+			<footer class="footer">
+				<div class="l-container">
+					<div class="l-row">
+						<div class="l-grid-12 padding0">
+						<!--
+							<ul class="sns">
+								<li>
+									<a href="https://twitter.com/and_mona_info">
+										<i class="fa fa-twitter sns_icon" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-facebook sns_icon" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/and_mona_/">
+										<i class="fa fa-instagram sns_icon" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+							-->
+							<h4 class="copyright">&copy; 2017 &amp;mona</h4>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</div>
 	</section>
 
-
+	<!--
 	<footer class="animation2">
 		<div class="l-wrapper l-footer">
 			<div class="l-container">
@@ -481,6 +535,7 @@
 			</div>
 		</div>
 	</footer>
+	-->
 
 
 	<script src="<?php bloginfo('template_url');?>/lib/js/app.js"></script>

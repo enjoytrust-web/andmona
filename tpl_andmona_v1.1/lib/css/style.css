@@ -3684,14 +3684,6 @@ grid system
     stroke-dashoffset: 3000;
     fill: rgba(255, 255, 255, 0);
   }
-  /*50% {
-      stroke-dashoffset: 2000;
-      fill: rgba(255, 255, 255, 0.5);
-  }*/
-  /*70% {
-      stroke-dashoffset: 1000;
-      fill: rgba(255, 255, 255, 0.4);
-  }*/
   100% {
     stroke-dashoffset: 0;
     fill: white;
@@ -3702,19 +3694,15 @@ grid system
     stroke-dashoffset: 3000;
     fill: rgba(255, 255, 255, 0);
   }
-  /*50% {
-      stroke-dashoffset: 2000;
-      fill: rgba(255, 255, 255, 0.5);
-  }*/
-  /*70% {
-      stroke-dashoffset: 1000;
-      fill: rgba(255, 255, 255, 0.4);
-  }*/
   100% {
     stroke-dashoffset: 0;
     fill: white;
   }
 }
+.scroll_button {
+  color: #fff;
+}
+
 .scroll {
   opacity: 0;
   position: absolute;
@@ -3722,8 +3710,8 @@ grid system
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  -webkit-animation: fadeIn_scroll 2s ease 3s 1 forwards;
-  animation: fadeIn_scroll 2s ease 3s 1 forwards;
+  -webkit-animation: fadeIn_scroll 2s ease 2s 1 forwards;
+  animation: fadeIn_scroll 2s ease 2s 1 forwards;
 }
 @keyframes fadeIn_scroll {
   0% {
@@ -3788,14 +3776,13 @@ grid system
 }
 
 /*---------- about ----------*/
-.miniborder {
-  display: block;
-  background: #fff;
-  width: 24px;
-  height: 3px;
-  margin-bottom: 4.8rem;
-}
-
+/*.miniborder{
+	display: block;
+	background: #fff;
+	width: 24px;
+	height: 3px;
+	margin-bottom: 4.8rem;
+}*/
 .title_about {
   font-size: 1.8rem;
   text-align: left;
@@ -3808,7 +3795,7 @@ grid system
   }
 }
 .title_about .font-size1 {
-  font-size: 4.8rem;
+  font-size: 4rem;
   margin-right: .8rem;
 }
 .title_about .font-size2 {
@@ -3816,12 +3803,12 @@ grid system
   margin-right: .8rem;
 }
 .title_about .font-size3 {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   margin-right: .8rem;
 }
 
 .semititle_about {
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: normal;
   text-align: left;
   margin-bottom: 4.8rem;
@@ -3876,6 +3863,7 @@ grid system
   width: 100%;
   text-align: center;
   font-size: 1.8rem;
+  font-weight: normal;
 }
 .item_text span {
   display: block;
@@ -3894,27 +3882,27 @@ grid system
 }
 
 .item1 {
-  background-image: url(../image/item1.jpg);
+  background-image: url(../image/item1_1.jpg);
 }
 
 .item2 {
-  background-image: url(../image/item2.jpg);
+  background-image: url(../image/item1_2.jpg);
 }
 
 .item3 {
-  background-image: url(../image/item3.jpg);
+  background-image: url(../image/item1_3.jpg);
 }
 
 .item4 {
-  background-image: url(../image/item4.jpg);
+  background-image: url(../image/item1_4.jpg);
 }
 
 .item5 {
-  background-image: url(../image/item5.jpg);
+  background-image: url(../image/item1_5.jpg);
 }
 
 .item6 {
-  background-image: url(../image/item6.jpg);
+  background-image: url(../image/item1_6.jpg);
 }
 
 .ripple {
@@ -3929,6 +3917,7 @@ grid system
   content: '';
   width: 2px;
   height: 2px;
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
   -webkit-animation: ripple 2.5s infinite;
@@ -3991,9 +3980,15 @@ grid system
   margin-bottom: .8rem;
 }
 
+.shopinfo_discription {
+  margin-bottom: 4.8rem;
+}
 .shopinfo_discription li {
   font-size: 1.4rem;
   margin-bottom: 2.4rem;
+}
+.shopinfo_discription li:last-child {
+  margin-bottom: 0;
 }
 .shopinfo_discription li span {
   display: block;
@@ -4006,31 +4001,24 @@ grid system
   display: inline;
 }
 
-.googlemap {
-  width: 100%;
-  height: 100%;
-}
-
-/*---------- footer ----------*/
-.l-footer {
-  height: auto;
-  padding: 3rem 0;
-}
-
 .sns {
-  text-align: center;
   margin-bottom: 2.4rem;
 }
 .sns li {
   display: inline-block;
 }
 .sns li:nth-of-type(2) {
-  margin: 0 4.8rem;
+  margin: 0 3.2rem;
 }
 
 .sns_icon {
   color: #fff;
-  font-size: 3.2rem;
+  font-size: 2.4rem;
+}
+
+.googlemap {
+  width: 100%;
+  height: 100%;
 }
 
 .copyright {
@@ -4039,6 +4027,44 @@ grid system
   text-align: center;
 }
 
+.footer {
+  padding: 3rem 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/*---------- footer ----------*/
+/*.l-footer{
+	height: auto;
+	padding:3rem 0;
+}
+
+.sns{
+	text-align: center;
+	margin-bottom: 2.4rem;
+
+	li{
+		display: inline-block;
+
+		&:nth-of-type(2){
+			margin: 0 4.8rem;
+		}
+	}
+
+}
+
+.sns_icon{
+	color: #fff;
+	font-size: 3.2rem;
+}
+
+.copyright{
+	font-size: 1.4rem;
+	font-weight: normal;
+	text-align: center;
+}*/
 /*------------------------------
 			animation
 ------------------------------*/
