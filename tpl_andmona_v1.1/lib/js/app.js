@@ -1,3 +1,19 @@
+/*---------- scrollbutton animation ----------*/
+
+$(function(){
+
+    $('.scroll_button').on('click', function(){
+
+        var scrolldown = $('.section_about').offset().top;
+        $('html,body').animate({
+            scrollTop: scrolldown,
+            easing: "easeOutCubic",
+        }, 1250);
+        return false;
+    });
+
+});
+
 /*---------- scrollify ----------*/
 
 $(function() {

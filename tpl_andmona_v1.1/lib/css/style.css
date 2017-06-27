@@ -3710,8 +3710,8 @@ grid system
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  -webkit-animation: fadeIn_scroll 2s ease 2s 1 forwards;
-  animation: fadeIn_scroll 2s ease 2s 1 forwards;
+  -webkit-animation: fadeIn_scroll 2s ease 2.5s 1 forwards;
+  animation: fadeIn_scroll 2s ease 2.5s 1 forwards;
 }
 @keyframes fadeIn_scroll {
   0% {

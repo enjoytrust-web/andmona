@@ -8,10 +8,12 @@
     <title>&amp;mona</title>
 
 	<!-- StyleSheet -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/lib/css/style.css">
 
     <!-- Script -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="<?php bloginfo('template_url');?>/lib/js/jquery.easing.1.3.js"></script>
 
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="">
@@ -334,7 +336,7 @@
 							<a href="#section_about" class="scroll_button">
 								<div class="scroll">
 									<i class="fa fa-long-arrow-down" aria-hidden="true"></i>
-									<p>Scroll</p>
+									<p class="newfont">Scroll</p>
 								</div>
 							</a>
 						</div>
@@ -345,7 +347,7 @@
 	</section>
 
 
-	<section class="section_about scroll_animation" id="section_about">
+	<section class="section_about scroll_animation">
 		<div class="l-wrapper">
 			<div class="l-container position_center">
 				<div class="l-row">
@@ -506,44 +508,12 @@
 		</div>
 	</section>
 
-	<!--
-	<footer class="animation2">
-		<div class="l-wrapper l-footer">
-			<div class="l-container">
-				<div class="l-row">
-					<div class="l-grid-12 padding0">
-						<ul class="sns">
-							<li>
-								<a href="https://twitter.com/and_mona_info">
-									<i class="fa fa-twitter sns_icon" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fa fa-facebook sns_icon" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/and_mona_/">
-									<i class="fa fa-instagram sns_icon" aria-hidden="true"></i>
-								</a>
-							</li>
-						</ul>
-						<h4 class="copyright">&copy; 2017 &amp;mona</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	-->
-
 
 	<script src="<?php bloginfo('template_url');?>/lib/js/app.js"></script>
 	<!-- ↓ google map API -->
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCJySDnXDlK5mSo9CPSOOUXvywXEo9wAGM"></script>
 	<script src="<?php bloginfo('template_url');?>/lib/js/map.js"></script>
 	<!-- ↓ scrollify -->
-	<script src="<?php bloginfo('template_url');?>/lib/js/jquery.easing.1.3.js"></script>
 	<script src="<?php bloginfo('template_url');?>/lib/js/jquery.scrollify.min.js"></script>
 </body>
 </html>
