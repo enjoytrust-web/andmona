@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-a
+
 <article class="content-wrapper">
 
 <section class="section-is-mainvisual">
@@ -67,11 +67,12 @@ a
 
 
     <div class="l-full">
-      <div class="l-tile-grid-6 information-grid">
-        <div class="l-grid-6 l-offset-left-3 l-offset-right-3 information-item">
-          <p class="top-text-heading">STORE INFO
-            <span class="top-text-heading-jp">取扱店舗</span>
-          </p>
+      <div class="l-grid-12 information-grid">
+
+        <div class="information-item">
+          <h2 class="section-header">STORE INFO
+            <span class="section-header-jp">取扱店舗</span>
+          </h2>
           <p class="top-text-label">Shop name</p>
           <p class="top-text-lead">Club Ammona</p>
           <p class="top-text-label">Address</p>
@@ -80,16 +81,7 @@ a
           <p class="top-text-lead">06-6211-3993</p>
         </div>
       </div>
-      <div class="l-tile-grid-6 information-grid">
-        <div class="l-grid-6 l-offset-left-3 l-offset-right-3 information-item">
-          <p class="top-text-heading">NEWS LETTER</p>
-          <p class="top-text-label">&amp;mona(アンドモナ)</p>
-          <p class="top-text-lead">&amp;mona(アンドモナ)</p>
-          <p class="top-text-notes">&amp;mona(アンドモナ)</p>
-        </div>
-      </div>
     </div>
-  </div>
 
 <section class="l-wrapper section-sns">
   <div class="l-conteiner">

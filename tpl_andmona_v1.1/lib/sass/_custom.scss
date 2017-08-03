@@ -422,14 +422,11 @@
   @include max(767) {
     height: 300px;
   }
-
-  &:nth-of-type(2) {
-    background: #454545;
-  }
 }
 
 .information-item {
   @include position-center();
+  text-align: center;
   @include max(767) {
     padding: 0 1.5rem;
   }

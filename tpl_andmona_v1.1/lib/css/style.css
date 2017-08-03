@@ -4046,9 +4046,6 @@ grid system
     height: 300px;
   }
 }
-.information-grid:nth-of-type(2) {
-  background: #454545;
-}
 
 .information-item {
   position: absolute;
@@ -4056,6 +4053,7 @@ grid system
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .information-item {
