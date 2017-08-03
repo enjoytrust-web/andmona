@@ -16,18 +16,18 @@
 .l-grid-10 { width: 83.33333333%; }
 .l-grid-11 { width: 91.66666667%; }
 .l-grid-12 { width: 100%; }
-.l-right-grid-1 { width: 8.33333333%; }
-.l-right-grid-2 { width: 16.66666667%; }
-.l-right-grid-3 { width: 25%; }
-.l-right-grid-4 { width: 33.33333333%; }
-.l-right-grid-5 { width: 41.66666667%; }
-.l-right-grid-6 { width: 50%; }
-.l-right-grid-7 { width: 58.33333333%; }
-.l-right-grid-8 { width: 66.66666667%; }
-.l-right-grid-9 { width: 75%; }
-.l-right-grid-10 { width: 83.33333333%; }
-.l-right-grid-11 { width: 91.66666667%; }
-.l-right-grid-12 { width: 100%; }
+.l-tile-grid-1 { width: 8.33333333%; }
+.l-tile-grid-2 { width: 16.66666667%; }
+.l-tile-grid-3 { width: 25%; }
+.l-tile-grid-4 { width: 33.33333333%; }
+.l-tile-grid-5 { width: 41.66666667%; }
+.l-tile-grid-6 { width: 50%; }
+.l-tile-grid-7 { width: 58.33333333%; }
+.l-tile-grid-8 { width: 66.66666667%; }
+.l-tile-grid-9 { width: 75%; }
+.l-tile-grid-10 { width: 83.33333333%; }
+.l-tile-grid-11 { width: 91.66666667%; }
+.l-tile-grid-12 { width: 100%; }
 .l-offset-right-1 { margin-right: 8.33333333%; }
 .l-offset-right-2 { margin-right: 16.66666667%; }
 .l-offset-right-3 { margin-right: 25%; }
@@ -54,6 +54,11 @@
 .l-offset-left-12 { margin-left: 100%; }
 .left { float: left; }
 .right { float: right; }
+
+[class*="l-full"] {
+	margin: 0 auto;
+	font-size: 0;
+}
 
 [class*="l-container"] {
 	max-width: $maxwidth;
@@ -89,12 +94,10 @@
 	-webkit-box-sizing:border-box;
 }
 
-[class*="l-right-grid-"] {
+
+[class*="l-tile-grid-"] {
 	position: relative;
 	min-height: 1px;
-	padding-left: $gutter;
-	padding-right: $gutter;
-	float: right;
 	display: inline-block;
 	vertical-align: top;
 	font-size: 1rem;
@@ -132,12 +135,9 @@ $grid-12: 100%;
 	-webkit-box-sizing:border-box;
 }
 
-@mixin right-grid-style {
+@mixin tile-grid-style {
 	position: relative;
 	min-height: 1px;
-	padding-left: $gutter;
-	padding-right: $gutter;
-	float: right;
 	display: inline-block;
 	vertical-align: top;
 	font-size: 1rem;
@@ -206,64 +206,64 @@ $grid-12: 100%;
 	@include grid-style;
 }
 
-@mixin l-right-grid-1 {
+@mixin l-tile-grid-1 {
 	width: $grid-1;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-2 {
+@mixin l-tile-grid-2 {
 	width: $grid-2;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-3 {
+@mixin l-tile-grid-3 {
 	width: $grid-3;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-4 {
+@mixin l-tile-grid-4 {
 	width: $grid-4;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-5 {
+@mixin l-tile-grid-5 {
 	width: $grid-5;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-6 {
+@mixin l-tile-grid-6 {
 	width: $grid-6;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-7 {
+@mixin l-tile-grid-7 {
 	width: $grid-7;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-8 {
+@mixin l-tile-grid-8 {
 	width: $grid-8;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-9 {
+@mixin l-tile-grid-9 {
 	width: $grid-9;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-10 {
+@mixin l-tile-grid-10 {
 	width: $grid-10;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-11 {
+@mixin l-tile-grid-11 {
 	width: $grid-11;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
-@mixin l-right-grid-12 {
+@mixin l-tile-grid-12 {
 	width: $grid-12;
-	@include right-grid-style;
+	@include tile-grid-style;
 }
 
 @mixin l-offset-right-1 {
@@ -360,6 +360,11 @@ $grid-12: 100%;
 
 @mixin l-offset-left-12 {
 	margin-left: $grid-12;
+}
+
+@mixin l-full {
+	margin: 0 auto;
+	font-size: 0;
 }
 
 @mixin l-container {
