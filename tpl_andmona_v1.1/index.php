@@ -83,6 +83,23 @@
       </div>
     </div>
 
+      <!-- test START-->
+
+      <div class="test-padding"></div>
+      <div class="l-full">
+        <div class="test-full-bg">
+          <div class="l-offset-left-2 l-grid-4">
+            <div class="test-bg-left"></div>
+          </div>
+
+          <div class="l-grid-4 l-offset-right-2">
+            <div class="test-bg-right"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- test END-->
+
 <section class="l-wrapper section-sns">
   <div class="l-conteiner">
     <div class="l-row">
