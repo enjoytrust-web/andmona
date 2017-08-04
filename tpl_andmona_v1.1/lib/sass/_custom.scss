@@ -372,17 +372,25 @@
 .sns-nav-list {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 
   @include max(767) {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 60%;
   }
 }
 
 .sns-nav-listin {
   position: relative;
-  width: 33.333%;
+  width: 30%;
+  @include max(768) {
+    width: 0;
+  }
+  @include max(767) {
+    width: 30%;
+  }
 }
 
 .sns-nav-listin-link {
@@ -481,10 +489,12 @@
   }
 }
 
+.information-item-link {
+  margin-top: 20px;
+}
 .information-item-logo {
   width: 250px;
   height: 100%;
-  margin-top: 20px;
   @include max(767) {
     width: 180px;
   }

@@ -3987,18 +3987,30 @@ grid system
 .sns-nav-list {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (max-width: 767px) {
   .sns-nav-list {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 60%;
   }
 }
 
 .sns-nav-listin {
   position: relative;
-  width: 33.333%;
+  width: 30%;
+}
+@media only screen and (max-width: 768px) {
+  .sns-nav-listin {
+    width: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sns-nav-listin {
+    width: 30%;
+  }
 }
 
 .sns-nav-listin-link {
@@ -4114,10 +4126,13 @@ grid system
   margin-top: 1rem;
 }
 
+.information-item-link {
+  margin-top: 20px;
+}
+
 .information-item-logo {
   width: 250px;
   height: 100%;
-  margin-top: 20px;
 }
 @media only screen and (max-width: 767px) {
   .information-item-logo {
