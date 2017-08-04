@@ -120,11 +120,20 @@
               <i class="fa fa-instagram"></i>
             </a>
           </li>
+          <li class="sns-nav-listin">
+            <a href="" class="sns-nav-listin-link">
+              <div class="sns-wear-box">
+                <p class="sns-wear-boxin">W<span class="sns-wear-E">E</span></p>
+                <p class="sns-wear-boxin">A<span class="sns-wear-R">R</span></p>
+              </div>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </div>
 </section>
+
 
 <footer class="l-footer">
   <h5 class="copyright">&copy;2017 &amp;mona</h5>

@@ -478,3 +478,20 @@
   border: 1.5px solid #333;
   height: 500px;
 }
+
+.sns-wear-box {
+  @include position-center();
+  margin-left: -0.5px;
+  font-size: 0.2rem;
+}
+.sns-wear-boxin {
+  font-weight: 800;
+
+  &:nth-child(2) {
+    margin-top: -4.5px;
+    padding-left: 2px;
+  }
+}
+.sns-wear-R {
+  padding-left: 1.5px;
+}

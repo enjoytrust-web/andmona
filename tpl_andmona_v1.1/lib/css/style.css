@@ -4105,3 +4105,25 @@ grid system
   border: 1.5px solid #333;
   height: 500px;
 }
+
+.sns-wear-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin-left: -0.5px;
+  font-size: 0.2rem;
+}
+
+.sns-wear-boxin {
+  font-weight: 800;
+}
+.sns-wear-boxin:nth-child(2) {
+  margin-top: -4.5px;
+  padding-left: 2px;
+}
+
+.sns-wear-R {
+  padding-left: 1.5px;
+}
