@@ -79,26 +79,10 @@
           <p class="top-text-lead">大阪府大阪市中央区東心斎橋2-3-22玉八ビル</p>
           <p class="top-text-label">Contact</p>
           <p class="top-text-lead">06-6211-3993</p>
+          <a href="http://ammona.jp/"><img src="<?php bloginfo('template_url');?>/lib/image/ammona_logo.png" alt="Club Ammona" class="information-item-logo"></a>
         </div>
       </div>
     </div>
-
-      <!-- test START-->
-
-      <div class="test-padding"></div>
-      <div class="l-full">
-        <div class="test-full-bg">
-          <div class="l-offset-left-2 l-grid-4">
-            <div class="test-bg-left"></div>
-          </div>
-
-          <div class="l-grid-4 l-offset-right-2">
-            <div class="test-bg-right"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- test END-->
 
 <section class="l-wrapper section-sns">
   <div class="l-conteiner">
@@ -121,7 +105,7 @@
             </a>
           </li>
           <li class="sns-nav-listin">
-            <a href="http://wear.jp/andmona/" class="sns-nav-listin-link">
+            <a href="http://wear.jp/andmona/" target="_blank" class="sns-nav-listin-link">
               <div class="sns-wear-box">
                 <p class="sns-wear-boxin">W<span class="sns-wear-E">E</span></p>
                 <p class="sns-wear-boxin">A<span class="sns-wear-R">R</span></p>
