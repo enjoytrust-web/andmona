@@ -121,7 +121,7 @@
             </a>
           </li>
           <li class="sns-nav-listin">
-            <a href="" class="sns-nav-listin-link">
+            <a href="http://wear.jp/andmona/" class="sns-nav-listin-link">
               <div class="sns-wear-box">
                 <p class="sns-wear-boxin">W<span class="sns-wear-E">E</span></p>
                 <p class="sns-wear-boxin">A<span class="sns-wear-R">R</span></p>
