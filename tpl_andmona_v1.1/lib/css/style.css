@@ -4131,11 +4131,11 @@ grid system
 }
 
 .information-item-logo {
-  width: 250px;
+  width: 280px;
   height: 100%;
 }
 @media only screen and (max-width: 767px) {
   .information-item-logo {
-    width: 180px;
+    width: 190px;
   }
 }
