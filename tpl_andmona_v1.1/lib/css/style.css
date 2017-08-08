@@ -4139,3 +4139,17 @@ grid system
     width: 190px;
   }
 }
+
+/* single.php */
+.products {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.products-text-box {
+  text-align: center;
+}
+
+.products-text-boxin-name {
+  font-size: 3rem;
+}
