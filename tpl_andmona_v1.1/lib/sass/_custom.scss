@@ -514,3 +514,37 @@
 .products-text-boxin-name {
   font-size: 3rem;
 }
+.products-text-boxin-price {
+
+}
+.products-text-boxin-detail {
+
+}
+
+.products-text-boxin-color {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+}
+.products-text-boxin-color-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.products-text-boxin-color-listin {
+  flex-basis: 23%;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.products-text-boxin-color-img {
+  width: 27px;
+  height: 27px;
+  padding: 2px;
+  border: 1px solid #333;
+  border-radius: 25px;
+}
+.products-text-boxin-color-name {
+  flex-basis: 50%;
+}

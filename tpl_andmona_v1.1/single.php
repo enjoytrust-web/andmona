@@ -11,7 +11,18 @@
 				<p class="products-text-boxin-price">￥1,000</p>
 				<p class="products-text-boxin-detail">シックでシンプルなアンモナロゴ入りコンパクトミラー
 				</p>
-				<div class="products-text-boxin-color"></div>
+				<figure class="products-text-boxin-color">
+					<ul class="products-text-boxin-color-list">
+						<li class="products-text-boxin-color-listin">
+							<img src="<?php bloginfo('template_url');?>/lib/image/color-black.jpg" alt="black" class="products-text-boxin-color-img">
+							<figcaption class="products-text-boxin-color-name">black</figcaption>
+						</li>
+						<li class="products-text-boxin-color-listin">
+							<img src="<?php bloginfo('template_url');?>/lib/image/color-black.jpg" alt="black" class="products-text-boxin-color-img">
+							<figcaption class="products-text-boxin-color-name">black</figcaption>
+						</li>
+					</ul>
+				</figure>
 				<p class="products-text-boxin-size"></p>
 			</div>
 
