@@ -11,24 +11,32 @@
 				<p class="products-text-boxin-price">￥1,000</p>
 				<p class="products-text-boxin-detail">シックでシンプルなアンモナロゴ入りコンパクトミラー
 				</p>
-				<figure class="products-text-boxin-color">
-					<ul class="products-text-boxin-color-list">
-						<li class="products-text-boxin-color-listin">
-							<img src="<?php bloginfo('template_url');?>/lib/image/color-black.jpg" alt="black" class="products-text-boxin-color-img">
-							<figcaption class="products-text-boxin-color-name">black</figcaption>
-						</li>
-						<li class="products-text-boxin-color-listin">
-							<img src="<?php bloginfo('template_url');?>/lib/image/color-black.jpg" alt="black" class="products-text-boxin-color-img">
-							<figcaption class="products-text-boxin-color-name">black</figcaption>
-						</li>
-					</ul>
-				</figure>
+				<div class="products-text-boxin-detail-box">
+					<p class="products-text-boxin-detail-boxin-title">Color</p>
+					<a href="#" title="black">
+						<img class="products-text-boxin-detail-boxin-color" src="<?php bloginfo('template_url');?>/lib/image/color-black.jpg" alt="black">
+					</a>
+					<p class="products-text-boxin-detail-boxin-title">Size</p>
+					<p class="products-text-boxin-detail-boxin-size">S</p>
+				</div>
 				<p class="products-text-boxin-size"></p>
 			</div>
+			</div>
 
+			<div class="l-full">
+				<div class="l-grid-4">
+					<img class="products-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_top_20170702.jpg" alt="">
+				</div>
+
+				<div class="l-grid-4">
+					<img class="products-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_top_20170702.jpg" alt="">
+				</div>
+
+				<div class="l-grid-4">
+					<img class="products-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_top_20170702.jpg" alt="">
+				</div>
 			</div>
 		</div>
-	</div>
 
 </section>
 
