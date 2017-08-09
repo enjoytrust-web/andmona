@@ -4180,13 +4180,20 @@ grid system
   }
 }
 
+.products-text-boxin-border {
+  margin-top: -36px;
+  display: inline-block;
+  background: #222;
+  width: 16%;
+  height: 3px;
+}
+
 .products-text-boxin-price {
   font-family: 'Raleway',sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
   padding-right: 5px;
-  border-bottom: 1px solid #222;
-  display: inline-block;
+  margin-top: 18px;
 }
 
 .products-text-boxin-detail {

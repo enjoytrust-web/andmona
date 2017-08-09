@@ -13,6 +13,7 @@
 			<div class="l-offset-right-1 l-grid-3 flex-grow">
 				<div class="products-text-box">
 					<p class="products-text-boxin-name">Compact Mirror</p>
+					<div class="products-text-boxin-border"></div>
 					<p class="products-text-boxin-price">￥1,000</p>
 					<p class="products-text-boxin-detail">シックでシンプルなアンモナロゴ入りコンパクトミラー
 					</p>
