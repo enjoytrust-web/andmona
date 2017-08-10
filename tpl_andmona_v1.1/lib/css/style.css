@@ -4249,7 +4249,26 @@ grid system
   box-shadow: 1px 1px 1px 1px rgba(153, 153, 153, 0.6);
 }
 
-.priducts-imgs {
+.products-imgs {
   width: 100%;
   height: 100%;
+}
+
+.products-text-boxin-contact {
+  display: inline-block;
+  width: 80%;
+  height: 50px;
+  background: #000;
+  box-shadow: 2px 2px 2px 2px rgba(153, 153, 153, 0.6);
+}
+.products-text-boxin-contact:hover {
+  background: #ef018d;
+  box-shadow: none;
+}
+
+.products-text-boxin-contact-text {
+  color: #eee;
+  font-size: 1.6rem;
+  padding-top: 14px;
+  font-weight: 500;
 }

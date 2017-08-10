@@ -8,7 +8,7 @@
 		<div class="products-bg">
 			<div class="l-grid-8">
 				<img class="products-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-			</div>
+			</div><!-- grid END -->
 
 			<div class="l-offset-right-1 l-grid-3 flex-grow">
 				<div class="products-text-box">
@@ -24,11 +24,12 @@
 						</a>
 						<p class="products-text-boxin-detail-boxin-title">Size</p>
 						<p class="products-text-boxin-detail-boxin-size">S</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div><!-- products-text-boxin-detail-box END-->
+					<a href="contact.php" class="products-text-boxin-contact"><p class="products-text-boxin-contact-text">お問い合わせ</p></a>
+				</div><!-- products-text-box END -->
+			</div><!-- grid END -->
+		</div><!-- products-bg END -->
+	</div><!-- l-full END -->
 
 </section>
 
