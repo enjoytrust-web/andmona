@@ -36,7 +36,7 @@
 						<dd class="products-text-box-dlistin-detail">ABC樹脂 / 鏡（ガラス）</dd>
 
 						<dt class="products-text-box-dlistin-title">注意</dt>
-						<dd class="products-text-box-dlistin-detail">変質・変色の恐れがありますので、シンナー・アルコ―ル等の有機系溶剤が付着しないようにご注意ください。</dd>
+						<dd class="products-text-box-dlistin-detail">変質・変色の恐れがありますので、シンナー・アルコール等の有機系溶剤が付着しないようにご注意ください。</dd>
 						<dd class="products-text-box-dlistin-detail">たわしや磨き粉などで拭きますと、ガラス面や本体に傷がつきますので使用しないで下さい。</dd>
 						<dd class="products-text-box-dlistin-detail">本体や鏡は柔らかい布地で軽く拭いてください。力を入れすぎると、キズがつく場合があります。</dd>
 						<dd class="products-text-box-dlistin-detail">落としたり硬いものにぶつかると鏡が割れて怪我をする恐れがあります。</dd>
@@ -47,18 +47,48 @@
 					</dl>
 				</div>
 			</div>
-			<div class="l-tile-grid-4">
+			<div class="l-tile-grid-8">
 				<img class="products-imgs-small-a" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-			</div>
-
-			<div class="l-tile-grid-4">
-				<img class="products-imgs-small-b" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
 			</div>
 
 		</div><!-- products-bg END -->
 	</div><!-- l-full END -->
+</section>
 
+<section class="recommend">
+	<div class="l-full">
+		<div class="l-offset-grid-1 grid-10 l-offset-grid-1">
+			<h2 class="section-header">
+          	YOU LIKE ALSO THESE
+          		<span class="section-header-jp">あなたにおすすめ</span>
+        	</h2>
 
+        	<div class="l-grid-3">
+        		<a recommend-link href="">
+        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+        		</a>
+        	</div>
+
+        	<div class="l-grid-3">
+        		<a recommend-link href="">
+        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+        		</a>
+        	</div>
+
+        	<div class="l-grid-3">
+        		<a recommend-link href="">
+        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+        		</a>
+        	</div>
+
+        	<div class="l-grid-3">
+        		<a recommend-link href="">
+        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+        		</a>
+        	</div>
+
+		</div><!-- grid END -->
+	</div><!-- l-full END -->
 
 </section>
 
