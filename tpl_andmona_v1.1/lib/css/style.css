@@ -4153,7 +4153,7 @@ grid system
 
 .products-text-box {
   background: #fff;
-  z-index: 1;
+  z-index: 9999;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -4265,6 +4265,11 @@ grid system
   background: #ef018d;
   box-shadow: none;
 }
+@media only screen and (max-width: 767px) {
+  .products-text-boxin-contact {
+    width: 80%;
+  }
+}
 
 .products-text-boxin-contact-text {
   color: #eee;
@@ -4275,8 +4280,9 @@ grid system
 
 /* single.php-detail */
 .products-detail-box {
+  position: absolute;
   background: #fff;
-  z-index: 1;
+  z-index: 9999;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -4287,7 +4293,9 @@ grid system
 }
 @media only screen and (max-width: 767px) {
   .products-detail-box {
-    padding-left: 0;
+    position: static;
+    padding-right: 41px;
+    padding-left: 41px;
     margin-right: 0;
     margin-top: 0;
   }
@@ -4314,4 +4322,13 @@ grid system
   font-family: FontAwesome;
   content: '\f0da';
   padding-right: 2px;
+}
+
+.products-imgs-small-a {
+  margin-top: 10%;
+}
+
+.products-imgs-small-b {
+  margin-top: 55%;
+  margin-bottom: 45%;
 }

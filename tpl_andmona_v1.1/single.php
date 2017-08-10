@@ -47,12 +47,12 @@
 					</dl>
 				</div>
 			</div>
-			<div class="l-grid-4">
-				
+			<div class="l-tile-grid-4">
+				<img class="products-imgs-small-a" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
 			</div>
 
-			<div class="l-grid-3 l-offset-right-1">
-				
+			<div class="l-tile-grid-4">
+				<img class="products-imgs-small-b" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
 			</div>
 
 		</div><!-- products-bg END -->
