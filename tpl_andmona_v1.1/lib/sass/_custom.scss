@@ -605,7 +605,6 @@
 
 .products-imgs {
   width: 100%;
-  height: 100%;
 }
 
 .products-text-boxin-contact {
@@ -696,4 +695,60 @@
   background: #fff;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.recommend-item-box {
+  position: relative;
+  background: #000;
+  width: 100%;
+  overflow: hidden;
+}
+.recommend-item-productpics {
+  padding-top: 100%;
+  background-size: cover;
+  background-position: center center;
+  @include prefix(transition, .2s);
+  @include prefix(transform,scale(1.1,1.1));
+}
+
+.recommend-item-box-link {
+
+  &:hover {
+    .recommend-item-productpics {
+      opacity: .4;
+      @include prefix(transform,scale(1.3,1.3));
+    }
+    .recommend-item-productname {
+      opacity: 1;
+    }
+    .recommend-item-more {
+      background: #fff;
+      color: #232323;
+    }
+
+  }
+}
+
+.recommend-item-productname {
+  opacity: 0;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: 200;
+  @include position-center;
+  padding: 0 1.5rem;
+  @include prefix(transition, .2s);
+}
+.recommend-item-more {
+  color: #fff;
+  display: block;
+  font-size: 1.3rem;
+  border: solid 2px #fff;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: .5rem 0;
+  width: 30%;
+  @include prefix(transition, .2s);
+  transition-delay: .2s;
+
 }

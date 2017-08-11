@@ -69,27 +69,59 @@
 	        	</h2>
 
 	        	<div class="l-grid-3">
-	        		<a recommend-link href="">
-	        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-	        		</a>
+	        		<div class="recommend-item-box">
+		        		<a class="recommend-item-box-link" href="#">
+		        			<figure class="recommend-item-productpics" style="background-image: url('<?php the_field('product_mainpics');?>')"></figure>
+		        			<h2 class="recommend-item-productname">
+		        				<?php the_field('product_name'); ?>
+		        				<span class="recommend-item-more">
+		        					MORE
+		        				</span>
+		        			</h2>
+		        		</a>
+	        		</div>
 	        	</div>
 
 	        	<div class="l-grid-3">
-	        		<a recommend-link href="">
-	        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-	        		</a>
+	        		<div class="recommend-item-box">
+		        		<a class="recommend-item-box-link" href="#">
+		        			<figure class="recommend-item-productpics" style="background-image: url('<?php the_field('product_mainpics');?>')"></figure>
+		        			<h2 class="recommend-item-productname">
+		        				<?php the_field('product_name'); ?>
+		        				<span class="recommend-item-more">
+		        					MORE
+		        				</span>
+		        			</h2>
+		        		</a>
+	        		</div>
 	        	</div>
 
 	        	<div class="l-grid-3">
-	        		<a recommend-link href="">
-	        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-	        		</a>
+	        		<div class="recommend-item-box">
+		        		<a class="recommend-item-box-link" href="#">
+		        			<figure class="recommend-item-productpics" style="background-image: url('<?php the_field('product_mainpics');?>')"></figure>
+		        			<h2 class="recommend-item-productname">
+		        				<?php the_field('product_name'); ?>
+		        				<span class="recommend-item-more">
+		        					MORE
+		        				</span>
+		        			</h2>
+		        		</a>
+	        		</div>
 	        	</div>
 
 	        	<div class="l-grid-3">
-	        		<a recommend-link href="">
-	        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-	        		</a>
+	        		<div class="recommend-item-box">
+		        		<a class="recommend-item-box-link" href="#">
+		        			<figure class="recommend-item-productpics" style="background-image: url('<?php the_field('product_mainpics');?>')"></figure>
+		        			<h2 class="recommend-item-productname">
+		        				<?php the_field('product_name'); ?>
+		        				<span class="recommend-item-more">
+		        					MORE
+		        				</span>
+		        			</h2>
+		        		</a>
+	        		</div>
 	        	</div>
 
 			</div><!-- grid END -->
