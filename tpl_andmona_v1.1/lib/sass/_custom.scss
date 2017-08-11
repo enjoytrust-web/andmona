@@ -502,9 +502,16 @@
 
 /* single.php */
 .products-bg {
-  background: #eee;
+  background: #f1f1f1;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  @include max(767) {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: none;
+  }
 }
 .flex-grow {
   flex-grow: 1;
@@ -566,7 +573,7 @@
   padding: 0px 0 20px 30px;
   margin-top: 24px;
   margin-bottom: 24px;
-  box-shadow: 2px 2px 2px 2px rgba(153, 153, 153, 0.6);
+  // box-shadow: 2px 2px 2px 2px rgba(153, 153, 153, 0.6);
   @include max(767) {
     width: 80%;
   }
@@ -622,7 +629,19 @@
   font-weight: 500;
 }
 
-/* single.php-detail */
+//priducts-details
+.products-title {
+  text-align: center;
+  background: #fff;
+  font-size: 7rem;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+  margin-top: 27%;
+  @include max(767) {
+    font-size: 6rem;
+    margin-top: 15%;
+  }
+}
 .products-detail-box {
     position: absolute;
   background: #fff;
@@ -633,7 +652,8 @@
   padding-right: 83px;
   padding-left: 83px;
   margin-right: -169px;
-  margin-top: 89%;
+  // margin-top: 89%;
+  margin-top: 66%;
   @include max(767) {
     position: static;
   padding-right: 41px;
@@ -665,6 +685,15 @@
 
 //recommend
 .recommend {
+  background: #f1f1f1;
+  padding-top: 200px;
+  @include max(767) {
+    padding-top: 50px;
+  }
+}
+
+.recommend-bg {
+  background: #fff;
   padding-top: 100px;
   padding-bottom: 100px;
 }

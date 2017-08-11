@@ -4142,9 +4142,18 @@ grid system
 
 /* single.php */
 .products-bg {
-  background: #eee;
+  background: #f1f1f1;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .products-bg {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: none;
+  }
 }
 
 .flex-grow {
@@ -4214,7 +4223,6 @@ grid system
   padding: 0px 0 20px 30px;
   margin-top: 24px;
   margin-bottom: 24px;
-  box-shadow: 2px 2px 2px 2px rgba(153, 153, 153, 0.6);
 }
 @media only screen and (max-width: 767px) {
   .products-text-boxin-detail-box {
@@ -4277,7 +4285,21 @@ grid system
   font-weight: 500;
 }
 
-/* single.php-detail */
+.products-title {
+  text-align: center;
+  background: #fff;
+  font-size: 7rem;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+  margin-top: 27%;
+}
+@media only screen and (max-width: 767px) {
+  .products-title {
+    font-size: 6rem;
+    margin-top: 15%;
+  }
+}
+
 .products-detail-box {
   position: absolute;
   background: #fff;
@@ -4288,7 +4310,7 @@ grid system
   padding-right: 83px;
   padding-left: 83px;
   margin-right: -169px;
-  margin-top: 89%;
+  margin-top: 66%;
 }
 @media only screen and (max-width: 767px) {
   .products-detail-box {
@@ -4324,6 +4346,17 @@ grid system
 }
 
 .recommend {
+  background: #f1f1f1;
+  padding-top: 200px;
+}
+@media only screen and (max-width: 767px) {
+  .recommend {
+    padding-top: 50px;
+  }
+}
+
+.recommend-bg {
+  background: #fff;
   padding-top: 100px;
   padding-bottom: 100px;
 }

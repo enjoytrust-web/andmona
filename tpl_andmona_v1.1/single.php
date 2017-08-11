@@ -27,9 +27,13 @@
 					<a href="contact.php" class="products-text-boxin-contact"><p class="products-text-boxin-contact-text">お問い合わせ</p></a>
 				</div><!-- products-text-box END -->
 			</div><!-- grid END -->
+		</div><!-- products-bg END -->
 
 <!-- detail START -->
+		<div class="products-bg">
 			<div class="l-offset-left-1 l-grid-3">
+
+			<p class="products-title">DETAILS</p>
 				<div class="products-detail-box">
 					<dl class="products-text-box-dlist">
 						<dt class="products-text-box-dlistin-title">材質</dt>
@@ -57,37 +61,39 @@
 
 <section class="recommend">
 	<div class="l-full">
-		<div class="l-offset-grid-1 grid-10 l-offset-grid-1">
-			<h2 class="section-header">
-          	YOU LIKE ALSO THESE
-          		<span class="section-header-jp">あなたにおすすめ</span>
-        	</h2>
+		<div class="recommend-bg">
+			<div class="l-offset-grid-1 grid-10 l-offset-grid-1">
+				<h2 class="section-header">
+	          	RECOMMENDED FOR YOU
+	          		<span class="section-header-jp">あなたにおすすめ</span>
+	        	</h2>
 
-        	<div class="l-grid-3">
-        		<a recommend-link href="">
-        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-        		</a>
-        	</div>
+	        	<div class="l-grid-3">
+	        		<a recommend-link href="">
+	        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+	        		</a>
+	        	</div>
 
-        	<div class="l-grid-3">
-        		<a recommend-link href="">
-        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-        		</a>
-        	</div>
+	        	<div class="l-grid-3">
+	        		<a recommend-link href="">
+	        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+	        		</a>
+	        	</div>
 
-        	<div class="l-grid-3">
-        		<a recommend-link href="">
-        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-        		</a>
-        	</div>
+	        	<div class="l-grid-3">
+	        		<a recommend-link href="">
+	        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+	        		</a>
+	        	</div>
 
-        	<div class="l-grid-3">
-        		<a recommend-link href="">
-        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
-        		</a>
-        	</div>
+	        	<div class="l-grid-3">
+	        		<a recommend-link href="">
+	        			<img class="recommend-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+	        		</a>
+	        	</div>
 
-		</div><!-- grid END -->
+			</div><!-- grid END -->
+		</div><!-- recommend-bg END -->
 	</div><!-- l-full END -->
 
 </section>
