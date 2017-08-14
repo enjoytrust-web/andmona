@@ -10,6 +10,17 @@
 				<img class="products-imgs" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
 			</div><!-- grid END -->
 			<div class="l-offset-right-1 l-grid-3 flex-grow">
+				<div class="products_sns-box">
+					<p class="products-sns-boxin-text">SHAER WITH : </p>
+					<ul class="sns_btn">
+						<li class="sns_btnInner"><a class="sns_btn_option sns_twitter" href="http://twitter.com/intent/tweet?text=<?php echo urlencode(the_title("","",0)); ?>&amp;<?php echo urlencode(get_permalink()); ?>&amp;url=<?php echo urlencode(get_permalink()); ?>" target="_blank" title="Twitterで共有"></a></li>
+
+						<li class="sns_btnInner"><a class="sns_btn_option sns_facebook" href="http://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>&amp;t=<?php echo urlencode(the_title("","",0)); ?>" target="_blank" title="facebookで共有"></a></li>
+
+						<li class="sns_btnInner"><a class="sns_btn_option sns_line" href="http://line.naver.jp/R/msg/text/?<?php the_title(); ?>%0D%0A<?php the_permalink(); ?>" target="_blank" title="LINEで送る">LINE</a></li>
+					</ul>
+				</div><!-- products_sns-box END -->
+
 				<div class="products-text-box">
 					<p class="products-text-boxin-name">Compact Mirror</p>
 					<div class="products-text-boxin-border"></div>

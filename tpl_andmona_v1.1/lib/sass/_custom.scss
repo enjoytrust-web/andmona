@@ -440,7 +440,7 @@
   text-align: center;
   font-family: 'Raleway',sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .information-grid {
@@ -503,8 +503,8 @@
 /* single.php */
 .products-bg {
   background: #f1f1f1;
-  display: flex;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-wrap: wrap;
   padding-top: 100px;
   padding-bottom: 10px;
   @include max(767) {
@@ -514,7 +514,7 @@
   }
 }
 .flex-grow {
-  flex-grow: 1;
+  // flex-grow: 1;
 }
 
 .products-text-box {
@@ -524,7 +524,7 @@
   padding-bottom: 47px;
   padding-right: 83px;
   margin-left: -169px;
-  margin-top: 89%;
+  margin-top: 44%;
   @include max(767) {
   padding-right: 0;
   margin-left: 0;
@@ -558,6 +558,7 @@
 }
 .products-text-boxin-detail {
   margin-top: 22px;
+  font-weight: 500;
   @include max(767) {
     margin-right: 15px;
     margin-left: 15px;
@@ -653,6 +654,10 @@
   margin-right: -169px;
   // margin-top: 89%;
   margin-top: 66%;
+  @include max(800) {
+  padding-right: 4px;
+  padding-left: 17px;
+  }
   @include max(767) {
     position: static;
   padding-right: 41px;
@@ -675,6 +680,7 @@
 .products-text-box-dlistin-detail {
   font-size: 1.3rem;
   margin-bottom: 15px;
+  font-weight: 500;
   &:before {
     font-family: FontAwesome;
     content: '\f0da';
@@ -686,8 +692,8 @@
 .recommend {
   background: #f1f1f1;
   padding-top: 200px;
-  @include max(767) {
-    padding-top: 50px;
+  @include max(1024) {
+    padding-top: 479px;;
   }
 }
 
@@ -751,4 +757,79 @@
   @include prefix(transition, .2s);
   transition-delay: .2s;
 
+}
+
+//sheare botton
+.products_sns-box {
+  margin: 0px 30px 0 -72px;
+  @include max (800) {
+    margin: 0 30px 0 30px;
+  }
+}
+.products-sns-boxin-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin-top: 40%;
+  @include max(767) {
+    margin-top: 10px;
+    display: none;
+  }
+}
+
+.sns_btn {
+  margin-top: 5%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 68%;
+  @include max(767) {
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  width: 100%;
+  }
+}
+
+.sns_btn_option {
+  font-family: 'Raleway', sans-serif;
+  color: #eee;
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  background: #000;
+  box-shadow: 2px 2px 2px 1px rgba(153, 153, 153, 0.6);
+  border-radius: 100%;
+  padding: 15px 0 13px 0;
+  @include max (767) {
+    width: 35px;
+    height: 35px;
+    padding: 9px 0 5px 0;
+  }
+  &:hover {
+    background: #ef018d;
+    box-shadow: none;
+  }
+  @include max(767) {
+  }
+}
+.sns_twitter {
+  &:before{
+  font-family: FontAwesome;
+  content: '\f099';
+  }
+}
+.sns_facebook {
+  &:before{
+  font-family: FontAwesome;
+  content: '\f09a';
+  }
+}
+.sns_line {
+@include max(767) {
+font-size: 1rem;
+padding-top: 11px;
+  }
 }
