@@ -835,15 +835,16 @@
 // }
 
 //single.php
-.porodcts-wrapp {
+.base-wrapp {
   background: #f1f1f1;
+  padding-top: 80px;
 }
 
-.products-text-box {
+.base-text-box {
   position: relative;
 }
 //right-grid
-.op-products-text-boxin-box-height-1 {
+.op-products-text-boxin-box-position-1 {
   position: absolute;
   top: 200px;
   left: -30%;
@@ -851,7 +852,7 @@
       position: static;
     }
 }
-.op-products-text-boxin-box-height-2 {
+.op-products-text-boxin-box-position-2 {
   background: #fff;
   position: absolute;
   top: 500px;

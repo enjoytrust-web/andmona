@@ -2,17 +2,16 @@
 
 <!-- ▼ write your contents ▼ -->
 
-<section class="porodcts-wrapp">
-
+<section class="base-wrapp">
   <div class="l-full">
     <div class="l-grid-8">
       <img class="products-pics" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="Compact Mirror">
     </div><!-- glid END -->
 
     <div class="l-grid-4">
-      <div class="priducts-text-box">
+      <div class="base-text-box">
 
-        <div class="products-text-boxin-box op-products-text-boxin-box-height-1">
+        <div class="products-text-boxin-box op-products-text-boxin-box-position-1">
           <div class="products-text-boxin-sns-widthbox">
             <p class="products-text-boxin-sns-text">SHARE ON：</p>
             <ul class="sns_btn">
@@ -34,7 +33,7 @@
           </div><!-- products-text-boxin-sns-widthbox -->
         </div><!-- products-text-boxin-sns END -->
 
-        <div class="products-text-boxin-box op-products-text-boxin-box-height-2">
+        <div class="products-text-boxin-box op-products-text-boxin-box-position-2">
           <div class="products-text-boxin-box-details-widthbox">
             <h2 class="products-text-boxin-details-name">Compact Mirror</h2>
             <div class="underborder"></div>
@@ -62,7 +61,25 @@
       </div><!-- priducts-text-box END -->
     </div><!-- glid END -->
   </div><!-- l-full END -->
+</section><!-- base-wrapp END -->
 
-</section>
+
+<section class="base-wrapp">
+  <div class="l-full">
+    <div class="l-grid-4">
+      <div class="base-text-box">
+        <div class="detail-text-boxin-box op-detail-text-boxin-box-position-1">
+          <div class="detail-text-boxin-box-details-widthbox">
+            
+          </div>
+        </div><!-- detail-text-boxin-box END -->
+        </div><!-- base-text-box END -->
+    </div><!-- glid END -->
+
+    <div class="l-grid-8">
+      <img class="products-pics" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="Compact Mirror">
+    </div><!-- glid END -->
+  </div><!-- l-full END -->
+</section><!-- base-wrapp END -->
 
 <?php get_footer(); ?>
