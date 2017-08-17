@@ -4140,19 +4140,51 @@ grid system
   }
 }
 
-.base-wrapp {
+.products-wrapp {
   background: #f1f1f1;
   padding-top: 80px;
+}
+@media only screen and (max-width: 767px) {
+  .products-wrapp {
+    background: #fff;
+    padding-top: 0;
+  }
+}
+
+.detail-wrapp {
+  background: #f1f1f1;
+  padding-top: 80px;
+}
+@media only screen and (max-width: 767px) {
+  .detail-wrapp {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+}
+
+.recommend-wrapp {
+  background: #f1f1f1;
+  padding-top: 200px;
+}
+@media only screen and (max-width: 767px) {
+  .recommend-wrapp {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
 
 .base-text-box {
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .op-products-text-boxin-box-position-1 {
   position: absolute;
   top: 200px;
   left: -30%;
+  order: 2;
 }
 @media only screen and (max-width: 767px) {
   .op-products-text-boxin-box-position-1 {
@@ -4165,6 +4197,8 @@ grid system
   position: absolute;
   top: 500px;
   left: -30%;
+  z-index: 99;
+  order: 1;
 }
 @media only screen and (max-width: 767px) {
   .op-products-text-boxin-box-position-2 {
@@ -4172,14 +4206,57 @@ grid system
   }
 }
 
-.products-text-boxin-box {
+.op-detail-text-boxin-box-position-1 {
+  position: absolute;
+  top: 200px;
+  right: -30%;
+  z-index: 99;
+}
+@media only screen and (max-width: 767px) {
+  .op-detail-text-boxin-box-position-1 {
+    position: static;
+  }
+}
+
+.op-detail-text-boxin-box-position-2 {
+  background: #fff;
+  position: absolute;
+  top: 500px;
+  right: -30%;
+  z-index: 99;
+}
+@media only screen and (max-width: 767px) {
+  .op-detail-text-boxin-box-position-2 {
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .flex-order4 {
+    order: 4;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .flex-order3 {
+    order: 3;
+  }
+}
+
+.base-text-boxin-box {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
 }
+@media only screen and (max-width: 767px) {
+  .base-text-boxin-box {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+}
 
-.products-text-boxin-sns-widthbox {
+.base-text-boxin-sns-widthbox {
   display: inline-block;
   width: 70%;
 }
@@ -4240,12 +4317,12 @@ grid system
   transform: translate(-50%, -50%);
 }
 
-.products-text-boxin-box-details-widthbox {
+.base-text-boxin-box-details-widthbox {
   display: inline-block;
   width: 80%;
 }
 @media only screen and (max-width: 767px) {
-  .products-text-boxin-box-details-widthbox {
+  .base-text-boxin-box-details-widthbox {
     width: 88%;
   }
 }
@@ -4293,7 +4370,7 @@ grid system
 
 .products-text-boxin-details-boxin-color {
   display: inline-block;
-  border: 1px solid #222;
+  border: 1px solid #333;
   border-radius: 100%;
 }
 
@@ -4308,7 +4385,7 @@ grid system
 .products-text-boxin-details-boxin-size {
   font-family: 'Raleway',sans-serif;
   text-align: center;
-  border: 1px solid #222;
+  border: 1px solid #333;
   border-radius: 100%;
   width: 28px;
   height: 28px;
@@ -4338,4 +4415,50 @@ grid system
   font-size: 1.6rem;
   padding-top: 14px;
   font-weight: 500;
+}
+
+.detail-text-boxin-boxin-bigtitle {
+  font-family: 'Raleway',sans-serif;
+  font-size: 7rem;
+  font-weight: 600;
+  letter-spacing: 1.5rem;
+}
+@media only screen and (max-width: 767px) {
+  .detail-text-boxin-boxin-bigtitle {
+    font-size: 6rem;
+    letter-spacing: 0.4rem;
+  }
+}
+
+.detail-text-boxin-list {
+  text-align: left;
+}
+
+.detail-text-boxin-listin-detailname {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+  margin-bottom: 5px;
+}
+
+.detail-text-boxin-listin-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.detail-text-boxin-listin-text:last-child {
+  padding-bottom: 0;
+}
+.detail-text-boxin-listin-text:before {
+  font-family: FontAwesome;
+  content: '\f0da';
+  padding-right: 2px;
+}
+
+.detail-text-boxin-listin-text-span:nth-of-type(1):after {
+  content: '：';
+}
+.detail-text-boxin-listin-text-span:nth-of-type(2) {
+  font-size: 1rem;
 }
