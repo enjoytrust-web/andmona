@@ -870,14 +870,14 @@
   }
 }
 
-.base-text-box {
+.content-foundation {
   position: relative;
   display: flex;
   flex-wrap: wrap;
 }
 //priducts
 //right-grid
-.op-products-text-boxin-box-position-1 {
+.products-content-box-position-first {
   position: absolute;
   top: 200px;
   left: -30%;
@@ -886,7 +886,7 @@
       position: static;
     }
 }
-.op-products-text-boxin-box-position-2 {
+.products-content-box-position-last {
   background: #fff;
   position: absolute;
   top: 500px;
@@ -900,7 +900,7 @@
 
 //detail
 //left grid
-.op-detail-text-boxin-box-position-1 {
+.detail-content-box-position-first {
   position: absolute;
   top: 200px;
   right: -30%;
@@ -909,7 +909,7 @@
       position: static;
     }
 }
-.op-detail-text-boxin-box-position-2 {
+.detail-content-box-position-last {
   background: #fff;
   position: absolute;
   top: 500px;
@@ -931,7 +931,7 @@
 }
 
 //products START
-.base-text-boxin-box {
+.content-box {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -941,11 +941,11 @@
     padding-bottom: 10px;
   }
 }
-.base-text-boxin-sns-widthbox{
+.products-sns-box {
   display: inline-block;
   width: 70%;
 }
-.products-text-boxin-sns-text {
+.products-sns-box-headline {
   text-align: left;
   padding-bottom: 17px;
 }
@@ -1004,14 +1004,14 @@
   }
 }
 
-.base-text-boxin-box-details-widthbox {
+.content-box-width {
   display: inline-block;
   width: 80%;
     @include max(767) {
       width: 88%;
     }
 }
- .products-text-boxin-details-name {
+ .products-main-box-productname {
   font-family: 'Raleway',sans-serif;
   font-size: 4rem;
   font-weight: 600;
@@ -1025,39 +1025,44 @@
   width: 16%;
   height: 3px;
 }
-.products-text-boxin-details-price {
+.products-main-box-price {
   font-family: 'Raleway',sans-serif;
   font-size:1.8rem;
   font-weight: 600;
   padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
-.products-text-boxin-details-text {
+.products-main-box-introduction {
   font-weight: 500;
+
 }
 
-.products-text-boxin-details-box {
+.products-main-boxin-detail-box {
   text-align: left;
   border: 2px solid #222;
   padding: 20px 40px 20px 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
- .products-text-boxin-details-boxin-item {
+ .products-main-boxin-detail-box-item {
   font-family: 'Raleway',sans-serif;
   font-size: 1.3rem;
   padding-bottom: 5px;
 }
-.products-text-boxin-details-boxin-color {
+.products-main-boxin-detail-box-colorname {
   display: inline-block;
   border: 1px solid #333;
   border-radius: 100%;
 }
-.products-text-boxin-details-boxin-colorin-bg {
+.products-main-boxin-detail-box-color {
   background: #000;
   border-radius: 100%;
   width: 24px;
   height: 24px;
   margin: 2px;
 }
-.products-text-boxin-details-boxin-size {
+.products-main-boxin-detail-box-size {
   font-family: 'Raleway',sans-serif;
   text-align: center;
   border: 1px solid #333;
@@ -1068,10 +1073,7 @@
   font-size: 1.3rem;
   font-weight: 500;
 }
-.make-space {
-  padding: 5px;
-}
-.products-text-boxin-contact {
+.products-main-box-contact {
   display: inline-block;
   width: 100%;
   height: 50px;
@@ -1082,7 +1084,7 @@
     box-shadow: none;
   }
 }
-.products-text-boxin-contact-text {
+.products-main-box-contact-inner-txt {
   color: #eee;
   font-size: 1.6rem;
   padding-top: 14px;
@@ -1090,7 +1092,7 @@
 }
 
 //detail START
-.detail-text-boxin-boxin-bigtitle {
+.detail-bigtitle {
   font-family: 'Raleway',sans-serif;
   font-size: 7rem;
   font-weight: 600;
@@ -1101,20 +1103,20 @@
   }
 }
 
-.detail-text-boxin-list {
+.detail-boxin-list {
   text-align: left;
 }
-.detail-text-boxin-listin-detailname {
+.detail-listin-detailtitle {
   display: inline-block;
   font-size: 1.3rem;
   font-weight: 600;
   border-bottom: 2px solid #000;
-  margin-bottom: 5px;
+  // margin-bottom: 5px;
 }
-.detail-text-boxin-listin-text {
+.detail-listin-txt {
   font-size: 1.2rem;
   font-weight: 500;
-  padding-bottom: 10px;
+  // padding-bottom: 10px;
 
   &:last-child {
     padding-bottom: 0;
@@ -1126,7 +1128,7 @@
     padding-right: 2px;
   }
 }
-.detail-text-boxin-listin-text-span {
+.detail-listin-txt-inner-span {
   &:nth-of-type(1):after {
     content: '：';
   }
@@ -1137,4 +1139,19 @@
 }
 
 //隣接タグ
+.detail-listin-detailtitle {
 
+  &+.detail-listin-txt {
+    margin-top: 10px;
+  }
+}
+
+.detail-listin-txt {
+  &+.detail-listin-txt {
+    margin-top: 5px;
+  }
+
+  &+.detail-listin-detailtitle {
+    margin-top: 15px;
+  }
+}

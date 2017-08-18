@@ -5,7 +5,7 @@
   <meta name="description" content="">
   <meta name="robots" content="index,follow">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title></title>
+    <title>and_mona</title>
 
   <!-- StyleSheet -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,500" rel="stylesheet">
