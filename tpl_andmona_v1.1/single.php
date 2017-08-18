@@ -2,7 +2,7 @@
 
 <!-- ▼ write your contents ▼ -->
 
-<section class="products-wrapp">
+<section class="products-wrap">
   <div class="l-full">
     <div class="l-grid-8">
       <img class="products-pics" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="Compact Mirror">
@@ -64,10 +64,10 @@
       </div><!-- priducts-text-box END -->
     </div><!-- glid END -->
   </div><!-- l-full END -->
-</section><!-- base-wrapp END -->
+</section><!-- base-wrap END -->
 
 
-<section class="detail-wrapp">
+<section class="detail-wrap">
   <div class="l-full base-text-box">
     <div class="l-grid-4 flex-order4">
       <div class="base-text-box">
@@ -120,12 +120,28 @@
       <img class="products-pics" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="Compact Mirror">
     </div><!-- glid END -->
   </div><!-- l-full END -->
-</section><!-- base-wrapp END -->
+</section><!-- base-wrap END -->
 
-<section class="recommend-wrapp">
+<section class="detaile-more-wrap">
+  <div class="l-full mc-center">
+    <div class="l-grid-4">
+        <img class="detaile-pics" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+    </div><!-- grid END -->
+
+    <div class="l-grid-4">
+        <img class="detaile-pics" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+    </div><!-- grid END -->
+
+    <div class="l-grid-4">
+        <img class="detaile-pics" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="">
+    </div><!-- grid END -->
+  </div><!-- l-full END -->
+</section>
+
+<section class="recommend-wrap">
   <h2 class="section-header">
-    NEW ARRIVAL
-    <span class="section-header-jp">新作</span>
+    RECOMMEND FOR YOU
+    <span class="section-header-jp">あなたにおすすめ</span>
   </h2>
 
   <div class="l-full">

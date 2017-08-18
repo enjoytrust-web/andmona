@@ -836,7 +836,7 @@
 
 //single.php
 //bace-setting START
-.products-wrapp {
+.products-wrap {
   background: #f1f1f1;
   padding-top: 80px;
   @include max(767) {
@@ -844,7 +844,7 @@
     padding-top: 0;
   }
 }
-.detail-wrapp {
+.detail-wrap {
   background: #f1f1f1;
   padding-top: 80px;
   @include max(767) {
@@ -853,7 +853,15 @@
     padding-bottom:30px;
   }
 }
-.recommend-wrapp {
+.detaile-more-wrap {
+  background: #f1f1f1;
+  padding-top: 50px;
+  @include max(767) {
+    background: #fff;
+    padding-top: 0;
+  }
+}
+.recommend-wrap {
   background: #f1f1f1;
   padding-top: 200px;
   @include max(767) {
@@ -1127,3 +1135,6 @@
     font-size: 1rem;
   }
 }
+
+//隣接タグ
+

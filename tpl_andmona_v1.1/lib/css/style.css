@@ -4140,35 +4140,46 @@ grid system
   }
 }
 
-.products-wrapp {
+.products-wrap {
   background: #f1f1f1;
   padding-top: 80px;
 }
 @media only screen and (max-width: 767px) {
-  .products-wrapp {
+  .products-wrap {
     background: #fff;
     padding-top: 0;
   }
 }
 
-.detail-wrapp {
+.detail-wrap {
   background: #f1f1f1;
   padding-top: 80px;
 }
 @media only screen and (max-width: 767px) {
-  .detail-wrapp {
+  .detail-wrap {
     background: #fff;
     padding-top: 10px;
     padding-bottom: 30px;
   }
 }
 
-.recommend-wrapp {
+.detaile-more-wrap {
+  background: #f1f1f1;
+  padding-top: 50px;
+}
+@media only screen and (max-width: 767px) {
+  .detaile-more-wrap {
+    background: #fff;
+    padding-top: 0;
+  }
+}
+
+.recommend-wrap {
   background: #f1f1f1;
   padding-top: 200px;
 }
 @media only screen and (max-width: 767px) {
-  .recommend-wrapp {
+  .recommend-wrap {
     padding-top: 80px;
     padding-bottom: 80px;
   }
