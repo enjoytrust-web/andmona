@@ -874,19 +874,41 @@ $gridPadding: 30px;
 .content-foundation {
   position: relative;
   padding-top: calc(200% + #{$gridPadding});
+  @include max(767) {
+
+  }
 }
 .content-foundation-inner-products {
   @include position-center();
   left: 22%;
+
+  @include max(767) {
+    position: static;
+    @include position-center(0,0,0,0);
+  }
 }
 .content-foundation-inner-detail {
   @include position-center();
   left: 78%;
   z-index: 99;
+
+  @include max(767) {
+    position: static;
+    @include position-center(0,0,0,0);
+  }
 }
 
 .content-box-bg {
   background: #fff;
+}
+
+.content-box {
+  &+.content-box {
+    margin-top: 15%;
+    @include max(767) {
+      margin-top: 0;
+    }
+  }
 }
 
 //products START

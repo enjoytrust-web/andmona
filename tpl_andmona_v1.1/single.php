@@ -12,28 +12,6 @@
       <div class="content-foundation">
         <div class="content-foundation-inner-products">
 
-          <div class="content-box">
-            <div class="products-sns-box">
-              <p class="products-sns-box-headline">SHARE ON：</p>
-              <ul class="sns_btn">
-                  <li class="sns_btnInner">
-                    <a class="sns_btnInner-link sns-btn-twitter" href="http://twitter.com/intent/tweet?text=<?php echo urlencode(the_title("","",0)); ?>&amp;<?php echo urlencode(get_permalink()); ?>&amp;url=<?php echo urlencode(get_permalink()); ?>" target="_blank" title="Twitterで共有">
-                    </a>
-                  </li>
-
-                  <li class="sns_btnInner">
-                    <a class="sns_btnInner-link sns-btn-facebook" href="http://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>&amp;t=<?php echo urlencode(the_title("","",0)); ?>" target="_blank" title="facebookで共有">
-                    </a>
-                  </li>
-
-                  <li class="sns_btnInner">
-                    <a class="sns_btnInner-link sns-btn-line" href="http://line.naver.jp/R/msg/text/?<?php the_title(); ?>%0D%0A<?php the_permalink(); ?>" target="_blank" title="LINEで送る">
-                    </a>
-                  </li>
-              </ul>
-            </div><!-- products-sns-box -->
-          </div><!-- content-box END -->
-
           <div class="content-box content-box-bg">
             <div class="content-box-width">
               <h2 class="products-main-box-productname">Compact Mirror</h2>
@@ -61,7 +39,30 @@
               </a>
             </div><!-- content-box-width END -->
           </div><!-- content-box END -->
-        </div>
+
+          <div class="content-box">
+            <div class="products-sns-box">
+              <p class="products-sns-box-headline">SHARE ON：</p>
+              <ul class="sns_btn">
+                  <li class="sns_btnInner">
+                    <a class="sns_btnInner-link sns-btn-twitter" href="http://twitter.com/intent/tweet?text=<?php echo urlencode(the_title("","",0)); ?>&amp;<?php echo urlencode(get_permalink()); ?>&amp;url=<?php echo urlencode(get_permalink()); ?>" target="_blank" title="Twitterで共有">
+                    </a>
+                  </li>
+
+                  <li class="sns_btnInner">
+                    <a class="sns_btnInner-link sns-btn-facebook" href="http://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>&amp;t=<?php echo urlencode(the_title("","",0)); ?>" target="_blank" title="facebookで共有">
+                    </a>
+                  </li>
+
+                  <li class="sns_btnInner">
+                    <a class="sns_btnInner-link sns-btn-line" href="http://line.naver.jp/R/msg/text/?<?php the_title(); ?>%0D%0A<?php the_permalink(); ?>" target="_blank" title="LINEで送る">
+                    </a>
+                  </li>
+              </ul>
+            </div><!-- products-sns-box -->
+          </div><!-- content-box END -->
+
+        </div><!-- content-foundation-inner-products -->
       </div><!-- content-foundation END -->
     </div><!-- glid END -->
   </div><!-- l-full END -->
@@ -70,7 +71,7 @@
 
 <section class="detail-wrap">
   <div class="l-full">
-    <div class="l-grid-4 flex-order4">
+    <div class="l-grid-4">
       <div class="content-foundation">
         <div class="content-foundation-inner-detail">
           <div class="content-box">
@@ -115,7 +116,7 @@
       </div><!-- content-foundation END -->
     </div><!-- glid END -->
 
-    <div class="l-grid-8 flex-order3">
+    <div class="l-grid-8">
       <img class="products-pics" src="<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg" alt="Compact Mirror">
     </div><!-- glid END -->
   </div><!-- l-full END -->
