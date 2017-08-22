@@ -10,57 +10,58 @@
 
     <div class="l-grid-4">
       <div class="content-foundation">
+        <div class="content-foundation-inner-products">
 
-        <div class="content-box products-content-box-position-first">
-          <div class="products-sns-box">
-            <p class="products-sns-box-headline">SHARE ON：</p>
-            <ul class="sns_btn">
-                <li class="sns_btnInner">
-                  <a class="sns_btnInner-link sns-btn-twitter" href="http://twitter.com/intent/tweet?text=<?php echo urlencode(the_title("","",0)); ?>&amp;<?php echo urlencode(get_permalink()); ?>&amp;url=<?php echo urlencode(get_permalink()); ?>" target="_blank" title="Twitterで共有">
-                  </a>
-                </li>
+          <div class="content-box">
+            <div class="products-sns-box">
+              <p class="products-sns-box-headline">SHARE ON：</p>
+              <ul class="sns_btn">
+                  <li class="sns_btnInner">
+                    <a class="sns_btnInner-link sns-btn-twitter" href="http://twitter.com/intent/tweet?text=<?php echo urlencode(the_title("","",0)); ?>&amp;<?php echo urlencode(get_permalink()); ?>&amp;url=<?php echo urlencode(get_permalink()); ?>" target="_blank" title="Twitterで共有">
+                    </a>
+                  </li>
 
-                <li class="sns_btnInner">
-                  <a class="sns_btnInner-link sns-btn-facebook" href="http://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>&amp;t=<?php echo urlencode(the_title("","",0)); ?>" target="_blank" title="facebookで共有">
-                  </a>
-                </li>
+                  <li class="sns_btnInner">
+                    <a class="sns_btnInner-link sns-btn-facebook" href="http://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>&amp;t=<?php echo urlencode(the_title("","",0)); ?>" target="_blank" title="facebookで共有">
+                    </a>
+                  </li>
 
-                <li class="sns_btnInner">
-                  <a class="sns_btnInner-link sns-btn-line" href="http://line.naver.jp/R/msg/text/?<?php the_title(); ?>%0D%0A<?php the_permalink(); ?>" target="_blank" title="LINEで送る">
-                  </a>
-                </li>
-            </ul>
-          </div><!-- products-text-boxin-sns-widthbox -->
-        </div><!-- products-text-boxin-sns END -->
+                  <li class="sns_btnInner">
+                    <a class="sns_btnInner-link sns-btn-line" href="http://line.naver.jp/R/msg/text/?<?php the_title(); ?>%0D%0A<?php the_permalink(); ?>" target="_blank" title="LINEで送る">
+                    </a>
+                  </li>
+              </ul>
+            </div><!-- products-sns-box -->
+          </div><!-- content-box END -->
 
-        <div class="content-box products-content-box-position-last">
-          <div class="content-box-width">
-            <h2 class="products-main-box-productname">Compact Mirror</h2>
-            <div class="underborder"></div>
-            <div class="make-space"></div>
-            <p class="products-main-box-price">￥1,000</p>
-            <div class="make-space"></div>
-            <p class="products-main-box-introduction">
-            シックでシンプルなAmmonaロゴ入りコンパクトミラー<br>
-            拡大鏡付きの2面鏡。
-            </p>
-            <div class="make-space"></div>
-            <div class="products-main-boxin-detail-box">
-              <p class="products-main-boxin-detail-box-item">Color</p>
-              <div class="products-main-boxin-detail-box-colorname" title="Black">
-                <div class="products-main-boxin-detail-box-color"></div>
+          <div class="content-box content-box-bg">
+            <div class="content-box-width">
+              <h2 class="products-main-box-productname">Compact Mirror</h2>
+              <div class="underborder"></div>
+
+              <p class="products-main-box-price">￥1,000</p>
+
+              <p class="products-main-box-introduction">
+              シックでシンプルなAmmonaロゴ入りコンパクトミラー<br>
+              拡大鏡付きの2面鏡。
+              </p>
+
+              <div class="products-main-boxin-detail-box">
+                <p class="products-main-boxin-detail-box-item">Color</p>
+                <div class="products-main-boxin-detail-box-colorname" title="Black">
+                  <div class="products-main-boxin-detail-box-color"></div>
+                </div>
+
+                <p class="products-main-boxin-detail-box-item">Size</p>
+                <div class="products-main-boxin-detail-box-size">S</div>
               </div>
-              <div class="make-space"></div>
-              <p class="products-main-boxin-detail-box-item">Size</p>
-              <div class="products-main-boxin-detail-box-size">S</div>
-            </div>
-            <div class="make-space"></div>
-            <a href="contact.php" class="products-main-box-contact">
-              <p class="products-main-box-contact-inner-txt">お問い合わせ</p>
-            </a>
-          </div><!-- products-main-box END -->
-        </div><!-- content-box END -->
 
+              <a href="contact.php" class="products-main-box-contact">
+                <p class="products-main-box-contact-inner-txt">お問い合わせ</p>
+              </a>
+            </div><!-- content-box-width END -->
+          </div><!-- content-box END -->
+        </div>
       </div><!-- content-foundation END -->
     </div><!-- glid END -->
   </div><!-- l-full END -->
@@ -71,45 +72,47 @@
   <div class="l-full">
     <div class="l-grid-4 flex-order4">
       <div class="content-foundation">
-        <div class="content-box detail-content-box-position-first">
-          <div class="content-box-width">
-            <p class="detail-bigtitle">DETAILS</p>
-          </div>
-        </div><!-- content-box END -->
+        <div class="content-foundation-inner-detail">
+          <div class="content-box">
+            <div class="content-box-width">
+              <p class="detail-bigtitle">DETAILS</p>
+            </div>
+          </div><!-- content-box END -->
 
-        <div class="content-box detail-content-box-position-last">
-          <div class="content-box-width">
-            <dl class="detail-boxin-list">
-              <dt class="detail-listin-detailtitle">実寸サイズ</dt>
-              <dd class="detail-listin-txt"><span class="detail-listin-txt-inner-span">縦×横</span>6.5×7.5(cm)<br>
-              <span class="detail-listin-txt-inner-span">※素材の特性と測る位置による誤差があります。
-              </span>
-              </dd>
+          <div class="content-box content-box-bg">
+            <div class="content-box-width">
+              <dl class="detail-boxin-list">
+                <dt class="detail-listin-detailtitle">実寸サイズ</dt>
+                <dd class="detail-listin-txt"><span class="detail-listin-txt-inner-span">縦×横</span>6.5×7.5(cm)<br>
+                <span class="detail-listin-txt-inner-span">※素材の特性と測る位置による誤差があります。
+                </span>
+                </dd>
 
-              <dt class="detail-listin-detailtitle">材質</dt>
-              <dd class="detail-listin-txt">ABC樹脂 / 鏡（ガラス）</dd>
+                <dt class="detail-listin-detailtitle">材質</dt>
+                <dd class="detail-listin-txt">ABC樹脂 / 鏡（ガラス）</dd>
 
-              <dt class="detail-listin-detailtitle">注意</dt>
-              <dd class="detail-listin-txt">変質・変色の恐れがありますので、シンナー・アルコール等の有機系溶剤が付着しないようにご注意ください。
-              </dd>
-              <dd class="detail-listin-txt">たわしや磨き粉などで拭きますと、ガラス面や本体に傷がつきますので使用しないで下さい。
-              </dd>
-              <dd class="detail-listin-txt">本体や鏡は柔らかい布地で軽く拭いてください。力を入れすぎると、キズがつく場合があります。
-              </dd>
-              <dd class="detail-listin-txt">落としたり硬いものにぶつかると鏡が割れて怪我をする恐れがあります。
-              </dd>
-              <dd class="detail-listin-txt">直射日光の当たる場所や火気のそばでの使用・保管はしないで下さい。
-              </dd>
-              <dd class="detail-listin-txt">
-              本来の目的外でのご使用はお止め下さい。
-              </dd>
-              <dd class="detail-listin-txt">
-              鏡や本体部分が破損した場合はご使用をお止め下さい。
-              </dd>
-            </dl>
-          </div>
-        </div><!-- content-box END -->
-        </div><!-- base-text-box END -->
+                <dt class="detail-listin-detailtitle">注意</dt>
+                <dd class="detail-listin-txt">変質・変色の恐れがありますので、シンナー・アルコール等の有機系溶剤が付着しないようにご注意ください。
+                </dd>
+                <dd class="detail-listin-txt">たわしや磨き粉などで拭きますと、ガラス面や本体に傷がつきますので使用しないで下さい。
+                </dd>
+                <dd class="detail-listin-txt">本体や鏡は柔らかい布地で軽く拭いてください。力を入れすぎると、キズがつく場合があります。
+                </dd>
+                <dd class="detail-listin-txt">落としたり硬いものにぶつかると鏡が割れて怪我をする恐れがあります。
+                </dd>
+                <dd class="detail-listin-txt">直射日光の当たる場所や火気のそばでの使用・保管はしないで下さい。
+                </dd>
+                <dd class="detail-listin-txt">
+                本来の目的外でのご使用はお止め下さい。
+                </dd>
+                <dd class="detail-listin-txt">
+                鏡や本体部分が破損した場合はご使用をお止め下さい。
+                </dd>
+              </dl>
+            </div>
+          </div><!-- content-box END -->
+        </div><!-- content-foundation-inner-detail END -->
+      </div><!-- content-foundation END -->
     </div><!-- glid END -->
 
     <div class="l-grid-8 flex-order3">

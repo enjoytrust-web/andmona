@@ -4187,71 +4187,30 @@ grid system
 
 .content-foundation {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
+  padding-top: calc(200% + 30px);
 }
 
-.products-content-box-position-first {
+.content-foundation-inner-products {
   position: absolute;
-  top: 200px;
-  left: -30%;
-  order: 2;
-}
-@media only screen and (max-width: 767px) {
-  .products-content-box-position-first {
-    position: static;
-  }
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  left: 22%;
 }
 
-.products-content-box-position-last {
+.content-foundation-inner-detail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  left: 78%;
+  z-index: 99;
+}
+
+.content-box-bg {
   background: #fff;
-  position: absolute;
-  top: 500px;
-  left: -30%;
-  z-index: 99;
-  order: 1;
-}
-@media only screen and (max-width: 767px) {
-  .products-content-box-position-last {
-    position: static;
-  }
-}
-
-.detail-content-box-position-first {
-  position: absolute;
-  top: 200px;
-  right: -30%;
-  z-index: 99;
-}
-@media only screen and (max-width: 767px) {
-  .detail-content-box-position-first {
-    position: static;
-  }
-}
-
-.detail-content-box-position-last {
-  background: #fff;
-  position: absolute;
-  top: 500px;
-  right: -30%;
-  z-index: 99;
-}
-@media only screen and (max-width: 767px) {
-  .detail-content-box-position-last {
-    position: static;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .flex-order4 {
-    order: 4;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .flex-order3 {
-    order: 3;
-  }
 }
 
 .content-box {
