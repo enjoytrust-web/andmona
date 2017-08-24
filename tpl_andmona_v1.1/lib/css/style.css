@@ -4236,9 +4236,9 @@ grid system
 .content-box + .content-box {
   margin-top: 15%;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1300px) {
   .content-box + .content-box {
-    margin-top: 0;
+    margin-top: 10%;
   }
 }
 
@@ -4247,6 +4247,12 @@ grid system
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
+}
+@media only screen and (max-width: 1300px) {
+  .content-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .content-box {
@@ -4331,7 +4337,7 @@ grid system
   font-size: 4rem;
   font-weight: 600;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1300px) {
   .products-main-box-productname {
     font-size: 3.5rem;
   }
@@ -4352,9 +4358,19 @@ grid system
   margin-top: 5px;
   margin-bottom: 10px;
 }
+@media only screen and (max-width: 1300px) {
+  .products-main-box-price {
+    font-size: 1.5rem;
+  }
+}
 
 .products-main-box-introduction {
   font-weight: 500;
+}
+@media only screen and (max-width: 1300px) {
+  .products-main-box-introduction {
+    font-size: 1rem;
+  }
 }
 
 .products-main-boxin-detail-box {
@@ -4364,11 +4380,21 @@ grid system
   margin-top: 10px;
   margin-bottom: 10px;
 }
+@media only screen and (max-width: 1300px) {
+  .products-main-boxin-detail-box {
+    padding: 10px 40px 10px 21px;
+  }
+}
 
 .products-main-boxin-detail-box-item {
   font-family: 'Raleway',sans-serif;
   font-size: 1.3rem;
   padding-bottom: 5px;
+}
+@media only screen and (max-width: 1300px) {
+  .products-main-boxin-detail-box-item {
+    font-size: 1rem;
+  }
 }
 
 .products-main-boxin-detail-box-colorname {
@@ -4384,6 +4410,12 @@ grid system
   height: 24px;
   margin: 2px;
 }
+@media only screen and (max-width: 1300px) {
+  .products-main-boxin-detail-box-color {
+    width: 15px;
+    height: 15px;
+  }
+}
 
 .products-main-boxin-detail-box-size {
   font-family: 'Raleway',sans-serif;
@@ -4395,6 +4427,14 @@ grid system
   padding: 4px;
   font-size: 1.3rem;
   font-weight: 500;
+}
+@media only screen and (max-width: 1300px) {
+  .products-main-boxin-detail-box-size {
+    width: 19px;
+    height: 19px;
+    font-size: 0.9rem;
+    padding-top: 1.5px;
+  }
 }
 
 .products-main-box-contact {
@@ -4408,12 +4448,23 @@ grid system
   background: #ef018d;
   box-shadow: none;
 }
+@media only screen and (max-width: 1300px) {
+  .products-main-box-contact {
+    height: 30px;
+  }
+}
 
 .products-main-box-contact-inner-txt {
   color: #eee;
   font-size: 1.6rem;
   padding-top: 14px;
   font-weight: 500;
+}
+@media only screen and (max-width: 1300px) {
+  .products-main-box-contact-inner-txt {
+    font-size: 1.2rem;
+    padding-top: 7px;
+  }
 }
 
 .detail-bigtitle {
@@ -4422,9 +4473,9 @@ grid system
   font-weight: 600;
   letter-spacing: 1.5rem;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1300px) {
   .detail-bigtitle {
-    font-size: 6rem;
+    font-size: 3rem;
     letter-spacing: 0.4rem;
   }
 }
@@ -4439,10 +4490,26 @@ grid system
   font-weight: 600;
   border-bottom: 2px solid #000;
 }
+@media only screen and (max-width: 1300px) {
+  .detail-listin-detailtitle {
+    border-bottom: 1px solid #000;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .detail-listin-detailtitle-smal {
+    font-size: 1rem;
+  }
+}
 
 .detail-listin-txt {
   font-size: 1.2rem;
   font-weight: 500;
+}
+@media only screen and (max-width: 1300px) {
+  .detail-listin-txt {
+    font-size: 1rem;
+  }
 }
 .detail-listin-txt:last-child {
   padding-bottom: 0;
@@ -4458,6 +4525,17 @@ grid system
 }
 .detail-listin-txt-inner-span:nth-of-type(2) {
   font-size: 1rem;
+}
+@media only screen and (max-width: 1300px) {
+  .detail-listin-txt-inner-span:nth-of-type(2) {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .detail-listin-txt-smal {
+    font-size: 0.5rem;
+  }
 }
 
 .detail-listin-detailtitle + .detail-listin-txt {

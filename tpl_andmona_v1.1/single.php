@@ -83,30 +83,30 @@
           <div class="content-box content-box-bg">
             <div class="content-box-width">
               <dl class="detail-boxin-list">
-                <dt class="detail-listin-detailtitle">実寸サイズ</dt>
+                <dt class="detail-listin-detailtitle detail-listin-detailtitle-smal">実寸サイズ</dt>
                 <dd class="detail-listin-txt"><span class="detail-listin-txt-inner-span">縦×横</span>6.5×7.5(cm)<br>
                 <span class="detail-listin-txt-inner-span">※素材の特性と測る位置による誤差があります。
                 </span>
                 </dd>
 
-                <dt class="detail-listin-detailtitle">材質</dt>
+                <dt class="detail-listin-detailtitle detail-listin-detailtitle-smal">材質</dt>
                 <dd class="detail-listin-txt">ABC樹脂 / 鏡（ガラス）</dd>
 
-                <dt class="detail-listin-detailtitle">注意</dt>
-                <dd class="detail-listin-txt">変質・変色の恐れがありますので、シンナー・アルコール等の有機系溶剤が付着しないようにご注意ください。
+                <dt class="detail-listin-detailtitle detail-listin-detailtitle-smal">注意</dt>
+                <dd class="detail-listin-txt detail-listin-txt-smal">変質・変色の恐れがありますので、シンナー・アルコール等の有機系溶剤が付着しないようにご注意ください。
                 </dd>
-                <dd class="detail-listin-txt">たわしや磨き粉などで拭きますと、ガラス面や本体に傷がつきますので使用しないで下さい。
+                <dd class="detail-listin-txt detail-listin-txt-smal">たわしや磨き粉などで拭きますと、ガラス面や本体に傷がつきますので使用しないで下さい。
                 </dd>
-                <dd class="detail-listin-txt">本体や鏡は柔らかい布地で軽く拭いてください。力を入れすぎると、キズがつく場合があります。
+                <dd class="detail-listin-txt detail-listin-txt-smal">本体や鏡は柔らかい布地で軽く拭いてください。力を入れすぎると、キズがつく場合があります。
                 </dd>
-                <dd class="detail-listin-txt">落としたり硬いものにぶつかると鏡が割れて怪我をする恐れがあります。
+                <dd class="detail-listin-txt detail-listin-txt-smal">落としたり硬いものにぶつかると鏡が割れて怪我をする恐れがあります。
                 </dd>
-                <dd class="detail-listin-txt">直射日光の当たる場所や火気のそばでの使用・保管はしないで下さい。
+                <dd class="detail-listin-txt detail-listin-txt-smal">直射日光の当たる場所や火気のそばでの使用・保管はしないで下さい。
                 </dd>
-                <dd class="detail-listin-txt">
+                <dd class="detail-listin-txt detail-listin-txt-smal">
                 本来の目的外でのご使用はお止め下さい。
                 </dd>
-                <dd class="detail-listin-txt">
+                <dd class="detail-listin-txt detail-listin-txt-smal">
                 鏡や本体部分が破損した場合はご使用をお止め下さい。
                 </dd>
               </dl>
