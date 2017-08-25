@@ -75,7 +75,7 @@
       <div class="content-foundation">
         <div class="content-foundation-inner-detail">
           <div class="content-box">
-            <div class="content-box-width">
+            <div class="content-box-width op-content-box-width">
               <p class="detail-bigtitle">DETAILS</p>
             </div>
           </div><!-- content-box END -->

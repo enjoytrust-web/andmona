@@ -2,5 +2,4 @@
 
 <!-- ▼ write your contents ▼ -->
 
-
 <?php get_footer(); ?>
