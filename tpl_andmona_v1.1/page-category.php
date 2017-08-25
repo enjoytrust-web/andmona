@@ -48,6 +48,12 @@
 	</div><!-- cotegory-wrapper END -->
 </nav>
 
+<div class="categoru-tag-wrap">
+	<div class="category-tag">
+		<p class="category-tagName">STATIONERIES</p>
+	</div>
+</div>
+
 <div class="category-wrapper">
 
 <section class="category-main">
@@ -68,6 +74,9 @@
 			<div class="category-main-introduction">
 				<h2 class="category-main-productname">COMPACT MIRROR</h2>
 				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
 			</div>
 		</div><!-- grid END -->
 
@@ -86,6 +95,9 @@
 			<div class="category-main-introduction">
 				<h2 class="category-main-productname">COMPACT MIRROR</h2>
 				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
 			</div>
 		</div><!-- grid END -->
 
@@ -104,6 +116,9 @@
 			<div class="category-main-introduction">
 				<h2 class="category-main-productname">COMPACT MIRROR</h2>
 				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
 			</div>
 		</div><!-- grid END -->
 
@@ -122,6 +137,9 @@
 			<div class="category-main-introduction">
 				<h2 class="category-main-productname">COMPACT MIRROR</h2>
 				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
 			</div>
 		</div><!-- grid END -->
 
@@ -146,6 +164,9 @@
 			<div class="category-main-introduction">
 				<h2 class="category-main-productname">COMPACT MIRROR</h2>
 				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
 			</div>
 		</div><!-- grid END -->
 
@@ -164,6 +185,9 @@
 			<div class="category-main-introduction">
 				<h2 class="category-main-productname">COMPACT MIRROR</h2>
 				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
 			</div>
 		</div><!-- grid END -->
 
@@ -182,6 +206,9 @@
 			<div class="category-main-introduction">
 				<h2 class="category-main-productname">COMPACT MIRROR</h2>
 				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
 			</div>
 		</div><!-- grid END -->
 
@@ -200,6 +227,9 @@
 			<div class="category-main-introduction">
 				<h2 class="category-main-productname">COMPACT MIRROR</h2>
 				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
 			</div>
 		</div><!-- grid END -->
 

@@ -4638,10 +4638,22 @@ grid system
 .category-main + .category-main {
   padding-top: 32px;
 }
+@media only screen and (max-width: 767px) {
+  .category-main + .category-main {
+    padding-top: 0;
+  }
+}
 
 .category-main-introduction {
   background: #fff;
-  padding: 10px 0;
+  padding: 10px 0px 10px 10px;
+  margin-top: 10px;
+  box-shadow: 5px 8px 20px #ccc;
+}
+@media only screen and (max-width: 767px) {
+  .category-main-introduction {
+    margin-bottom: 35px;
+  }
 }
 
 .category-main-productname {
@@ -4649,8 +4661,40 @@ grid system
   font-size: 1.6rem;
   font-weight: 400;
 }
+@media only screen and (max-width: 767px) {
+  .category-main-productname {
+    font-size: 1.4rem;
+  }
+}
 
 .category-main-priduct-price {
   font-family: 'Raleway',sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.categoru-tag-wrap {
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+@media only screen and (max-width: 1024px) {
+  .categoru-tag-wrap {
+    width: 95%;
+  }
+}
+
+.category-tag {
+  background: #000;
+  text-align: center;
+  display: inline-block;
+  border-top-right-radius: 10px;
+}
+
+.category-tagName {
+  font-family: 'Raleway',sans-serif;
+  color: #eee;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 5px 20px;
 }
