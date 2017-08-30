@@ -4426,8 +4426,8 @@ grid system
 .products-main-boxin-detail-box-color {
   background: #000;
   border-radius: 100%;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   margin: 2px;
 }
 @media only screen and (max-width: 1024px) {
@@ -4442,10 +4442,10 @@ grid system
   text-align: center;
   border: 1px solid #333;
   border-radius: 100%;
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
   padding: 4px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 @media only screen and (max-width: 1024px) {
@@ -4591,6 +4591,7 @@ grid system
   background: #f1f1f1;
   padding: 35px 0;
   margin-bottom: 35px;
+  box-shadow: 0px 0px 15px #ccc;
 }
 @media only screen and (max-width: 1024px) {
   .category-wrapper {
@@ -4663,8 +4664,8 @@ grid system
 .category-main-introduction {
   background: #fff;
   padding: 10px 0px 10px 10px;
-  margin-top: 10px;
-  box-shadow: 5px 8px 20px #ccc;
+  /* margin-top: 10px; */
+  /* box-shadow: 5px 8px 20px #ccc; */
 }
 @media only screen and (max-width: 767px) {
   .category-main-introduction {
@@ -4723,4 +4724,70 @@ grid system
   .category-tagName {
     font-size: 1.8rem;
   }
+}
+
+.category-branch {
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+@media only screen and (max-width: 1024px) {
+  .category-branch {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .category-branch {
+    margin-top: 0;
+  }
+}
+
+.category-branch-box {
+  text-align: center;
+  padding: 35px;
+}
+
+.category-branch-boxin-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-top: 1.5px solid #000;
+  border-bottom: 1.5px solid #000;
+  display: inline-block;
+  line-height: 3.5rem;
+  margin-bottom: 30px;
+}
+
+.category-branch-boxin-link {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+}
+.category-branch-boxin-link:hover {
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+}
+.category-branch-boxin-link:before {
+  font-family: FontAwesome;
+  content: '\f101';
+}
+
+.contact-wrapper {
+  background: #f1f1f1;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.contact-title {
+  font-family: 'Raleway',sans-serif;
+  font-size: 6rem;
+  font-weight: 500;
 }

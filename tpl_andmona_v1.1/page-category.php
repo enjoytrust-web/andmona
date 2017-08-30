@@ -236,6 +236,41 @@
 	</div><!-- l-full END -->
 </section><!-- category-main END -->
 
+<section class="category-branch">
+	<div class="l-container">
+		<div class="l-row">
+
+			<div class="l-grid-4">
+				<div class="category-branch-box">
+					<p class="category-branch-boxin-title">
+						ABOUT STORE
+					</p>
+					<a class="category-branch-boxin-link" href="index.php#storeinfo">店舗情報はこちら</a>
+				</div>
+			</div>
+
+			<div class="l-grid-4">
+				<div class="category-branch-box">
+					<p class="category-branch-boxin-title">
+						RETURNS POLICY
+					</p>
+					<a class="category-branch-boxin-link" href="#">返品・交換について</a>
+				</div>
+			</div>
+
+			<div class="l-grid-4">
+				<div class="category-branch-box">
+					<p class="category-branch-boxin-title">
+						CONTACT US
+					</p>
+					<a class="category-branch-boxin-link" href="#">お問い合わせはこちら</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
 </div><!-- category-wrapper END -->
 
 <?php get_footer(); ?>

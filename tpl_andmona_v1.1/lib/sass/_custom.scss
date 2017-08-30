@@ -1076,8 +1076,8 @@ $gridPadding: 30px;
 .products-main-boxin-detail-box-color {
   background: #000;
   border-radius: 100%;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   margin: 2px;
   @include max(1024) {
   width: 12px;
@@ -1089,10 +1089,10 @@ $gridPadding: 30px;
   text-align: center;
   border: 1px solid #333;
   border-radius: 100%;
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
   padding: 4px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
   @include max(1024) {
   width: 19px;
@@ -1232,6 +1232,7 @@ $gridPadding: 30px;
   background: #f1f1f1;
   padding: 35px 0;
   margin-bottom: 35px;
+  box-shadow: 0px 0px 15px #ccc;
   @include max(1024) {
     width: 100%;
     padding: 35px 0 0 0;
@@ -1292,8 +1293,8 @@ $gridPadding: 30px;
 .category-main-introduction {
   background: #fff;
   padding: 10px 0px 10px 10px;
-  margin-top: 10px;
-  box-shadow: 5px 8px 20px #ccc;
+  /* margin-top: 10px; */
+  /* box-shadow: 5px 8px 20px #ccc; */
   @include max(767) {
     margin-bottom: 35px;
   }
@@ -1341,4 +1342,62 @@ $gridPadding: 30px;
   @include max(767) {
     font-size: 1.8rem;
   }
+}
+
+//category-branch
+.category-branch {
+  margin-top: 70px;
+  margin-bottom: 35px;
+  @include max(1024) {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    padding-bottom:35px;
+  }
+  @include max(767) {
+    margin-top: 0;
+  }
+}
+
+.category-branch-box {
+  text-align: center;
+  padding: 35px;
+  &:hover {
+    // background-color: #A5E7F1;
+  }
+}
+
+.category-branch-boxin-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-top: 1.5px solid #000;
+  border-bottom: 1.5px solid #000;
+  display: inline-block;
+  line-height: 3.5rem;
+  margin-bottom: 30px;
+}
+.category-branch-boxin-link {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  &:hover {
+    @include prefix(transition,.1s);
+    @include prefix(transform,scale(1.05,1.05))
+    // font-size: 1.1rem;
+  }
+  &:before {
+    font-family: FontAwesome;
+    content: '\f101';
+  }
+}
+
+//contact.php
+.contact-wrapper {
+  background: #f1f1f1;
+  text-align: center;
+  padding-top: 200px;
+}
+.contact-title {
+  font-family: 'Raleway',sans-serif;
+  font-size: 6rem;
+  font-weight: 500;
 }

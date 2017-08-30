@@ -69,7 +69,7 @@
     <div class="l-full">
       <div class="l-grid-12 information-grid">
 
-        <div class="information-item">
+        <div class="information-item id=storeinfo">
           <h2 class="section-header">STORE INFO
             <span class="section-header-jp">取扱店舗</span>
           </h2>
