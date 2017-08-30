@@ -489,6 +489,23 @@
   }
 }
 
+.top-text-link {
+  color: #000;
+  &:before{
+  font-family: FontAwesome;
+  content: '\f124';
+  padding-right: 3px;
+  }
+
+  &:hover {
+  color: #eee;
+  }
+}
+
+.top-text-number {
+  color: #000;
+}
+
 .information-item-link {
   margin-top: 20px;
 }
@@ -1063,8 +1080,8 @@ $gridPadding: 30px;
   height: 24px;
   margin: 2px;
   @include max(1024) {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   }
 }
 .products-main-boxin-detail-box-size {
@@ -1284,16 +1301,19 @@ $gridPadding: 30px;
 
 .category-main-productname {
   font-family: 'Raleway',sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  @include max(767) {
-  font-size: 1.4rem;
+  @include max(1024) {
+  font-size: 1.1rem;
   }
 }
 .category-main-priduct-price {
   font-family: 'Raleway',sans-serif;
   font-size: 1.3rem;
   margin-bottom: 5px;
+  @include max(1024) {
+    font-size: 1rem;
+  }
 }
 
 //category-tag
@@ -1318,4 +1338,7 @@ $gridPadding: 30px;
   font-size: 2rem;
   font-weight: 600;
   padding:5px 20px;
+  @include max(767) {
+    font-size: 1.8rem;
+  }
 }

@@ -77,8 +77,11 @@
           <p class="top-text-lead">Club Ammona</p>
           <p class="top-text-label">Address</p>
           <p class="top-text-lead">大阪府大阪市中央区東心斎橋2-3-22玉八ビル</p>
+          <p class="top-text-lead">
+            <a href="https://goo.gl/maps/s1MHPpmVHL82" class="top-text-link">Google Map</a>
+          </p>
           <p class="top-text-label">Contact</p>
-          <p class="top-text-lead">06-6211-3993</p>
+          <p class="top-text-lead"><a class="top-text-number" href="tel:06-6211-3993">06-6211-3993</a></p>
           <a class="information-item-link" href="http://ammona.jp/">
 <svg version="1.1" class="information-item-logo" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
    y="0px" width="396.169px" height="66.405px" viewBox="0 0 396.169 66.405" enable-background="new 0 0 396.169 66.405"

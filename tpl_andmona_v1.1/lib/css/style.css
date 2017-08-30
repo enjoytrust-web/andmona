@@ -4126,6 +4126,22 @@ grid system
   margin-top: 1rem;
 }
 
+.top-text-link {
+  color: #000;
+}
+.top-text-link:before {
+  font-family: FontAwesome;
+  content: '\f124';
+  padding-right: 3px;
+}
+.top-text-link:hover {
+  color: #eee;
+}
+
+.top-text-number {
+  color: #000;
+}
+
 .information-item-link {
   margin-top: 20px;
 }
@@ -4416,8 +4432,8 @@ grid system
 }
 @media only screen and (max-width: 1024px) {
   .products-main-boxin-detail-box-color {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
   }
 }
 
@@ -4658,12 +4674,12 @@ grid system
 
 .category-main-productname {
   font-family: 'Raleway',sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .category-main-productname {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -4671,6 +4687,11 @@ grid system
   font-family: 'Raleway',sans-serif;
   font-size: 1.3rem;
   margin-bottom: 5px;
+}
+@media only screen and (max-width: 1024px) {
+  .category-main-priduct-price {
+    font-size: 1rem;
+  }
 }
 
 .categoru-tag-wrap {
@@ -4697,4 +4718,9 @@ grid system
   font-size: 2rem;
   font-weight: 600;
   padding: 5px 20px;
+}
+@media only screen and (max-width: 767px) {
+  .category-tagName {
+    font-size: 1.8rem;
+  }
 }
