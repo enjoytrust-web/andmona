@@ -2,7 +2,7 @@
 
 <!-- ▼ write your contents ▼ -->
 
-<nav class="cotegory-nav">
+<nav class="category-nav category-nav-fixed">
 	<div class="category-nav-wrapper">
 	<div class="l-full">
 		<div class="l-tile-grid-4">
@@ -48,9 +48,9 @@
 	</div><!-- cotegory-wrapper END -->
 </nav>
 
-<div class="categoru-tag-wrap">
+<div class="category-tag-wrap">
 	<div class="category-tag">
-		<p class="category-tagName">STATIONERIES</p>
+		<p class="category-tagName">ALL</p>
 	</div>
 </div>
 
@@ -252,9 +252,9 @@
 			<div class="l-grid-4">
 				<div class="category-branch-box">
 					<p class="category-branch-boxin-title">
-						RETURNS POLICY
+						PRIVACY POLICY
 					</p>
-					<a class="category-branch-boxin-link" href="#">返品・交換について</a>
+					<a class="category-branch-boxin-link" href="#">個人情報の取り扱いについて</a>
 				</div>
 			</div>
 
@@ -263,7 +263,7 @@
 					<p class="category-branch-boxin-title">
 						CONTACT US
 					</p>
-					<a class="category-branch-boxin-link" href="#">お問い合わせはこちら</a>
+					<a class="category-branch-boxin-link" href="page-contact.php">お問い合わせはこちら</a>
 				</div>
 			</div>
 
@@ -272,5 +272,20 @@
 </section>
 
 </div><!-- category-wrapper END -->
+
+<!-- <script>
+	$(function() {
+		var nav = $('.category-nav')
+		offset = nav.offset();
+		$(window).scroll(function() {
+			if($(window).scrollTop() > offset.top) {
+				nav.addClass('category-nav-fixed');
+			}
+			else {
+				nav.removeClass('category-nav-fixed');
+			}
+		});
+	});
+</script> -->
 
 <?php get_footer(); ?>

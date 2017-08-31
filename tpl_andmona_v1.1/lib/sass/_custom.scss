@@ -1213,10 +1213,20 @@ $gridPadding: 30px;
 }
 
 //category.php
-.cotegory-nav {
+.category-nav {
   background: #000;
   padding: 20px 0;
 }
+.category-nav-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  @include max(767) {
+    position: static;
+  }
+}
+
 .category-nav-wrapper {
   margin: 0 auto;
   width: 55%;
@@ -1318,7 +1328,7 @@ $gridPadding: 30px;
 }
 
 //category-tag
-.categoru-tag-wrap {
+.category-tag-wrap {
   width: 92%;
   margin: 0 auto;
   margin-top: 15px;
@@ -1332,6 +1342,10 @@ $gridPadding: 30px;
   text-align: center;
   display: inline-block;
   border-top-right-radius: 10px;
+  margin-top: 150px;
+  @include max(767) {
+    margin-top: 0px;
+  }
 }
 .category-tagName {
   font-family: 'Raleway',sans-serif;
@@ -1387,6 +1401,7 @@ $gridPadding: 30px;
   &:before {
     font-family: FontAwesome;
     content: '\f101';
+    padding-right: 3px;
   }
 }
 
@@ -1483,6 +1498,10 @@ label {
   font-weight: 500;
   padding-left: 20px;
   font-size: 1.2rem;
+  &:hover {
+    background: #ef018d;
+    cursor: pointer;
+  }
 
   &:after {
     font-family: FontAwesome;
@@ -1492,17 +1511,3 @@ label {
   }
 
 }
-
-
-
-// .contact-form-selector-option {
-//   &:focus {
-//   background: #555;
-//   }
-// }
-
-// input[type="button"] {
-// }
-// option {
-//   &:checked
-// }
