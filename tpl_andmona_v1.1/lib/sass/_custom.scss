@@ -1394,10 +1394,115 @@ $gridPadding: 30px;
 .contact-wrapper {
   background: #f1f1f1;
   text-align: center;
-  padding-top: 200px;
+  padding: 130px 0 80px 0;
 }
 .contact-title {
   font-family: 'Raleway',sans-serif;
   font-size: 6rem;
   font-weight: 500;
+  width: 100%;
 }
+
+//form
+input {
+  width: 100%;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.form-must-mark {
+  font-size: 1.2rem;
+  padding-left: 3px;
+  &:after {
+  content: '*';
+  }
+}
+
+.form-wrapper {
+  margin: 50px 0;
+}
+
+.contact-form-content-selector {
+  width: 100%;
+  font-size: 1.1rem;
+  height: 25px;
+  color: #555;
+}
+.contact-form-letter {
+  width: 100%;
+}
+
+.contact-form-title {
+  text-align: left;
+  margin-bottom: 5px;
+
+  &+.contact-form-content-letter {
+    margin-bottom: 15px;
+  }
+
+  &+.contact-form-content-selector-wrapper {
+    margin-bottom: 15px;
+  }
+}
+.form-label-inlead {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.form-label-inlead-link {
+  display: inline-block;
+  font-size: 1rem;
+  color: #000;
+  border-bottom: 1px solid #888;
+}
+
+.contact-form-checkbox-list {
+  display: flex;
+  text-align: left;
+  margin-top: 15px;
+}
+.contact-form-checkbox {
+  width: 4%;
+  margin: 2px 3px 0 0;
+}
+.contact-form-checbox-lead {
+  width: 50%;
+}
+
+.form-btn-box {
+  margin-top: 40px;
+  text-align: right;
+}
+.form-btn {
+  width: 40%;
+  height: 40px;
+  background: #000;
+  color: #eee;
+  font-weight: 500;
+  padding-left: 20px;
+  font-size: 1.2rem;
+
+  &:after {
+    font-family: FontAwesome;
+    content: '\f105';
+    margin-left: 20px;
+    font-size: 1.5rem;
+  }
+
+}
+
+
+
+// .contact-form-selector-option {
+//   &:focus {
+//   background: #555;
+//   }
+// }
+
+// input[type="button"] {
+// }
+// option {
+//   &:checked
+// }
