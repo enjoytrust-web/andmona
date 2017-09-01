@@ -1528,5 +1528,45 @@ label {
     margin-left: 20px;
     font-size: 1.5rem;
   }
+}
 
+//privacy policy
+.privacy-wrapper {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 130px 0 80px 0;
+}
+.privacy-title {
+  font-family: 'Raleway',sans-serif;
+  font-size: 6rem;
+  font-weight: 500;
+  width: 100%;
+}
+.privacy-lead-Description {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.privacy-lead-wrapper {
+  margin: 50px 0;
+}
+.privacy-lead-box {
+  text-align: left;
+}
+.privasy-list {
+  &+.privasy-list {
+    margin-top: 20px;
+  }
+}
+.privacy-listin-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  &+.privacy-listin-lead {
+    margin-top: 10px;
+  }
+}
+.privacy-listin-lead {
+  font-weight: 500;
 }
