@@ -25,7 +25,15 @@
 					<a href="#" class="category-nav-listin-item">BOTTOMS</a>
 				</li>
 				<li class="category-nav-listin">
-					<a href="#" class="category-nav-listin-item">ACCESSORIES</a>
+					<a href="#" class="category-nav-listin-item hoverlist">ACCESSORIES</a>
+					<ul class="category-nav-listin-sabList">
+						<li class="category-nav-listin-sabListIn">
+							<a class="category-nav-listin-sabListin-item" href="#">BEAUTY</a>
+						</li>
+						<li class="category-nav-listin-sabListIn">
+							<a class="category-nav-listin-sabListin-item" href="#">HOME/GOODS</a>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</div><!-- gird END -->

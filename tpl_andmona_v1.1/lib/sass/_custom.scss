@@ -892,7 +892,7 @@ $gridPadding: 30px;
   position: relative;
   padding-top: calc(200% + #{$gridPadding});
   @include max(767) {
-
+  padding-top: 150%;
   }
 }
 .content-foundation-inner-products {
@@ -1133,8 +1133,11 @@ $gridPadding: 30px;
   font-weight: 600;
   letter-spacing: 1.5rem;
   @include max(1024) {
-    font-size: 3rem;
+    font-size: 5rem;
     letter-spacing: 0.4rem;
+  }
+  @include max(767) {
+    padding-top: 50px;
   }
 }
 
@@ -1250,6 +1253,9 @@ $gridPadding: 30px;
   }
   &+.category-tag-wrap {
     margin-top: 15px;
+    @include max(767) {
+      margin-top: 20px;
+    }
   }
 }
 
@@ -1284,6 +1290,19 @@ $gridPadding: 30px;
   @include max(1024) {
   font-size: 2rem;
   line-height: 3.2rem;
+  }
+}
+
+.category-nav-listin-sabList {
+  background: #000;
+}
+
+.category-nav-listin-sabListin-item {
+  color: #eee;
+  font-weight: 600;
+  display: inline-block;
+  &:hover {
+    color:#ef018d;
   }
 }
 
