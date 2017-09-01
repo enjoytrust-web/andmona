@@ -48,6 +48,7 @@
 	</div><!-- cotegory-wrapper END -->
 </nav>
 
+<!-- ALL -->
 <div class="category-tag-wrap">
 	<div class="category-tag">
 		<p class="category-tagName">ALL</p>
@@ -145,6 +146,16 @@
 
 	</div><!-- l-full END -->
 </section><!-- category-main END -->
+</div><!-- category-wrapper END -->
+
+<!-- MEN -->
+<div class="category-tag-wrap">
+	<div class="category-tag">
+		<p class="category-tagName">MEN</p>
+	</div>
+</div>
+
+<div class="category-wrapper">
 
 <section class="category-main">
 	<div class="l-full">
@@ -235,7 +246,609 @@
 
 	</div><!-- l-full END -->
 </section><!-- category-main END -->
+</div><!-- category-wrapper END -->
 
+<!-- WOMEN -->
+<div class="category-tag-wrap">
+	<div class="category-tag">
+		<p class="category-tagName">WOMEN</p>
+	</div>
+</div>
+
+<div class="category-wrapper">
+
+<section class="category-main">
+	<div class="l-full">
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+	</div><!-- l-full END -->
+</section><!-- category-main END -->
+</div><!-- category-wrapper END -->
+
+<!-- TOPS -->
+<div class="category-tag-wrap">
+	<div class="category-tag">
+		<p class="category-tagName">TOPS</p>
+	</div>
+</div>
+
+<div class="category-wrapper">
+
+<section class="category-main">
+	<div class="l-full">
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+	</div><!-- l-full END -->
+</section><!-- category-main END -->
+</div><!-- category-wrapper END -->
+
+<!-- BOTTOMS -->
+<div class="category-tag-wrap">
+	<div class="category-tag">
+		<p class="category-tagName">BOTTOMS</p>
+	</div>
+</div>
+
+<div class="category-wrapper">
+
+<section class="category-main">
+	<div class="l-full">
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+	</div><!-- l-full END -->
+</section><!-- category-main END -->
+</div><!-- category-wrapper END -->
+
+<!-- ACCESSORIES -->
+<div class="category-tag-wrap">
+	<div class="category-tag">
+		<p class="category-tagName">ACCESSORIES</p>
+	</div>
+</div>
+
+<div class="category-wrapper">
+
+<section class="category-main">
+	<div class="l-full">
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+	</div><!-- l-full END -->
+</section><!-- category-main END -->
+</div><!-- category-wrapper END -->
+
+<!-- STATIONERIES -->
+<div class="category-tag-wrap">
+	<div class="category-tag">
+		<p class="category-tagName">STATIONERIES</p>
+	</div>
+</div>
+
+<div class="category-wrapper">
+
+<section class="category-main">
+	<div class="l-full">
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+	</div><!-- l-full END -->
+</section><!-- category-main END -->
+</div><!-- category-wrapper END -->
+
+<!-- SALE -->
+<div class="category-tag-wrap">
+	<div class="category-tag">
+		<p class="category-tagName">SALE</p>
+	</div>
+</div>
+
+<div class="category-wrapper">
+
+<section class="category-main">
+	<div class="l-full">
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+	</div><!-- l-full END -->
+</section><!-- category-main END -->
+</div><!-- category-wrapper END -->
+
+<!-- information -->
 <section class="category-branch">
 	<div class="l-container">
 		<div class="l-row">
@@ -270,8 +883,6 @@
 		</div>
 	</div>
 </section>
-
-</div><!-- category-wrapper END -->
 
 <!-- <script>
 	$(function() {

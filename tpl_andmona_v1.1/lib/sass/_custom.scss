@@ -1215,7 +1215,7 @@ $gridPadding: 30px;
 //category.php
 .category-nav {
   background: #000;
-  padding: 20px 0;
+  padding: 7px 0;
 }
 .category-nav-fixed {
   position: fixed;
@@ -1245,8 +1245,11 @@ $gridPadding: 30px;
   box-shadow: 0px 0px 15px #ccc;
   @include max(1024) {
     width: 100%;
-    padding: 35px 0 0 0;
+    padding: 35px 0;
     margin-bottom: 0;
+  }
+  &+.category-tag-wrap {
+    margin-top: 15px;
   }
 }
 
@@ -1331,9 +1334,12 @@ $gridPadding: 30px;
 .category-tag-wrap {
   width: 92%;
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 165px;
   @include max(1024) {
     width: 95%;
+  }
+  @include max(767) {
+    margin-top: 15px;
   }
 }
 
@@ -1342,10 +1348,6 @@ $gridPadding: 30px;
   text-align: center;
   display: inline-block;
   border-top-right-radius: 10px;
-  margin-top: 150px;
-  @include max(767) {
-    margin-top: 0px;
-  }
 }
 .category-tagName {
   font-family: 'Raleway',sans-serif;
@@ -1360,15 +1362,13 @@ $gridPadding: 30px;
 
 //category-branch
 .category-branch {
-  margin-top: 70px;
   margin-bottom: 35px;
   @include max(1024) {
     margin-top: 40px;
     margin-bottom: 35px;
-    padding-bottom:35px;
   }
   @include max(767) {
-    margin-top: 0;
+    margin-top: 35px;
   }
 }
 

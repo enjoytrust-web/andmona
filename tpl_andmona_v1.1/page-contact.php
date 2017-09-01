@@ -6,7 +6,7 @@
 
 	<div class="l-container">
 		<div class="l-row">
-			<div class="l-grid-12">
+			<div class="l-grid-5">
 				<p class="contact-title">
 					CONTACT
 				</p>
