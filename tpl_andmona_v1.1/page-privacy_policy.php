@@ -8,7 +8,7 @@
 		<div class="l-row">
 			<div class="l-grid-8">
 				<p class="privacy-title">
-					CONTACT
+					PRIVACY POLICY
 				</p>
 				<p class="privacy-lead-Description">
 					&amp;mona（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）におけるプライバシー情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。

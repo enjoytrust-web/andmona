@@ -31,7 +31,7 @@
 							<a class="category-nav-listin-sabListin-item" href="#">BEAUTY</a>
 						</li>
 						<li class="category-nav-listin-sabListIn">
-							<a class="category-nav-listin-sabListin-item" href="#">HOME/GOODS</a>
+							<a class="category-nav-listin-sabListin-item" href="#">STATIONERIES</a>
 						</li>
 					</ul>
 				</li>
@@ -41,7 +41,7 @@
 		<div class="l-tile-grid-4">
 			<ul class="category-nav-list">
 				<li class="category-nav-listin">
-					<a href="#" class="category-nav-listin-item">STATIONERIES</a>
+					<a href="#" class="category-nav-listin-item">HOME/GOODS</a>
 				</li>
 				<li class="category-nav-listin">
 					<a href="#" class="category-nav-listin-item">SALE</a>
@@ -559,7 +559,11 @@
 <!-- ACCESSORIES -->
 <div class="category-tag-wrap">
 	<div class="category-tag">
-		<p class="category-tagName">ACCESSORIES</p>
+		<a class="category-tagName category-tagName-link" href="#">ACCESSORIES</a>
+	</div>
+
+	<div class="category-tag">
+		<a class="category-tagName category-tagName-link" href="#">BEAUTY</a>
 	</div>
 </div>
 
@@ -656,10 +660,14 @@
 </section><!-- category-main END -->
 </div><!-- category-wrapper END -->
 
-<!-- STATIONERIES -->
+<!-- HOME/GOODS -->
 <div class="category-tag-wrap">
 	<div class="category-tag">
-		<p class="category-tagName">STATIONERIES</p>
+		<a class="category-tagName category-tagName-link" href="#">HOME/GOODS</a>
+	</div>
+
+		<div class="category-tag">
+		<a class="category-tagName category-tagName-link" href="#">STATIONERIES</a>
 	</div>
 </div>
 
@@ -866,7 +874,7 @@
 					<p class="category-branch-boxin-title">
 						ABOUT STORE
 					</p>
-					<a class="category-branch-boxin-link" href="index.php#storeinfo">店舗情報はこちら</a>
+					<a class="category-branch-boxin-link" href="#">店舗情報はこちら</a>
 				</div>
 			</div>
 
@@ -884,7 +892,7 @@
 					<p class="category-branch-boxin-title">
 						CONTACT US
 					</p>
-					<a class="category-branch-boxin-link" href="page-contact.php">お問い合わせはこちら</a>
+					<a class="category-branch-boxin-link" href="#">お問い合わせはこちら</a>
 				</div>
 			</div>
 

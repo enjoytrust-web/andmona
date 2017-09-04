@@ -4076,7 +4076,7 @@ grid system
 }
 
 .information-grid {
-  background: #ef018d;
+  background: #bcbcbc;
   position: relative;
   height: 400px;
 }
@@ -4760,6 +4760,9 @@ grid system
   display: inline-block;
   border-top-right-radius: 10px;
 }
+.category-tag + .category-tag {
+  margin-left: 1%;
+}
 
 .category-tagName {
   font-family: 'Raleway',sans-serif;
@@ -4770,8 +4773,12 @@ grid system
 }
 @media only screen and (max-width: 767px) {
   .category-tagName {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
+}
+
+.category-tagName-link:hover {
+  color: #ef018d;
 }
 
 .category-branch {
