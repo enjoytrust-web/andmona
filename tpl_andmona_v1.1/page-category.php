@@ -26,14 +26,6 @@
 				</li>
 				<li class="category-nav-listin">
 					<a href="#" class="category-nav-listin-item hoverlist">ACCESSORIES</a>
-					<ul class="category-nav-listin-sabList">
-						<li class="category-nav-listin-sabListIn">
-							<a class="category-nav-listin-sabListin-item" href="#">BEAUTY</a>
-						</li>
-						<li class="category-nav-listin-sabListIn">
-							<a class="category-nav-listin-sabListin-item" href="#">STATIONERIES</a>
-						</li>
-					</ul>
 				</li>
 			</ul>
 		</div><!-- gird END -->
@@ -558,16 +550,16 @@
 
 <!-- ACCESSORIES -->
 <div class="category-tag-wrap">
-	<div class="category-tag">
-		<a class="category-tagName category-tagName-link" href="#">ACCESSORIES</a>
+	<div class="category-tag" id="js-category-tag-acc">
+		<a class="category-tagName category-tagName-link" href="#accessories">ACCESSORIES</a>
 	</div>
 
-	<div class="category-tag">
-		<a class="category-tagName category-tagName-link" href="#">BEAUTY</a>
+	<div class="category-tag" id="js-category-tag-beauty">
+		<a class="category-tagName category-tagName-link" href="#beauty">BEAUTY</a>
 	</div>
 </div>
-
-<div class="category-wrapper">
+<!-- ACCESSORIES CONTENT -->
+<div class="category-wrapper category-tab-content active" id="accessories">
 
 <section class="category-main">
 	<div class="l-full">
@@ -660,18 +652,113 @@
 </section><!-- category-main END -->
 </div><!-- category-wrapper END -->
 
+<!-- BEAUTY CONTENT -->
+<div class="category-wrapper category-tab-content" id="beauty">
+
+<section class="category-main">
+  <div class="l-full">
+
+    <div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+      <div class="category-main-introduction">
+        <h2 class="category-main-productname">BEAUTY CONTENT</h2>
+        <p class="category-main-priduct-price">￥1,000</p>
+        <div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+      </div>
+    </div><!-- grid END -->
+
+    <div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+      <div class="category-main-introduction">
+        <h2 class="category-main-productname">BEAUTY CONTENT</h2>
+        <p class="category-main-priduct-price">￥1,000</p>
+        <div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+      </div>
+    </div><!-- grid END -->
+
+    <div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+      <div class="category-main-introduction">
+        <h2 class="category-main-productname">BEAUTY CONTENT</h2>
+        <p class="category-main-priduct-price">￥1,000</p>
+        <div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+      </div>
+    </div><!-- grid END -->
+
+    <div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+      <div class="category-main-introduction">
+        <h2 class="category-main-productname">BEAUTY CONTENT</h2>
+        <p class="category-main-priduct-price">￥1,000</p>
+        <div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+      </div>
+    </div><!-- grid END -->
+
+  </div><!-- l-full END -->
+</section><!-- category-main END -->
+</div><!-- category-wrapper END -->
+
 <!-- HOME/GOODS -->
 <div class="category-tag-wrap">
-	<div class="category-tag">
-		<a class="category-tagName category-tagName-link" href="#">HOME/GOODS</a>
+	<div class="category-tag" id="js-category-tag-homeGoods">
+		<a class="category-tagName category-tagName-link" href="#homegoods">HOME/GOODS</a>
 	</div>
 
-		<div class="category-tag">
-		<a class="category-tagName category-tagName-link" href="#">STATIONERIES</a>
+		<div class="category-tag" id="js-category-tag-stationeries">
+		<a class="category-tagName category-tagName-link" href="#stationeries">STATIONERIES</a>
 	</div>
 </div>
 
-<div class="category-wrapper">
+<!-- HOMEGOODS CONTENT -->
+<div class="category-wrapper category-tab-content active" id="homegoods">
 
 <section class="category-main">
 	<div class="l-full">
@@ -753,6 +840,100 @@
       </div><!-- content-item-box END -->
 			<div class="category-main-introduction">
 				<h2 class="category-main-productname">COMPACT MIRROR</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+	</div><!-- l-full END -->
+</section><!-- category-main END -->
+</div><!-- category-wrapper END -->
+
+<!-- STATIONERIES CONTENT -->
+<div class="category-wrapper category-tab-content" id="stationeries">
+
+<section class="category-main">
+	<div class="l-full">
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">STATIONERIES</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">STATIONERIES</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">STATIONERIES</h2>
+				<p class="category-main-priduct-price">￥1,000</p>
+				<div class="products-main-boxin-detail-box-colorname" title="Black">
+          <div class="products-main-boxin-detail-box-color"></div>
+        </div>
+			</div>
+		</div><!-- grid END -->
+
+		<div class="l-grid-3 top-new-arrival">
+      <div class="content-item-box">
+        <a href="#" class="content-item-box-link">
+          <figure class="content-item-productpics"style="background-image: url('<?php bloginfo('template_url');?>/lib/image/item_mirror_20170702.jpg')">
+          </figure>
+          <h2 class="content-item-productname">
+            <span class="more">
+              MORE
+            </span>
+          </h2>
+        </a>
+      </div><!-- content-item-box END -->
+			<div class="category-main-introduction">
+				<h2 class="category-main-productname">STATIONERIES</h2>
 				<p class="category-main-priduct-price">￥1,000</p>
 				<div class="products-main-boxin-detail-box-colorname" title="Black">
           <div class="products-main-boxin-detail-box-color"></div>

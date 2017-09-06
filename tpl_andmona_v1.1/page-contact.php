@@ -114,7 +114,7 @@
 			<!-- 個人情報取り扱い　同意 -->
 								<p class="form-label-inlead">ご登録いただくお客様の個人情報は、お客様からのお問い合わせに回答するために利用させていただきます。<br>
 								個人情報の取り扱いについては
-								<a class="form-label-inlead-link" href="">こちら</a>。
+								<a class="form-label-inlead-link" href="<?php echo home_url();?>/privacy_policy">こちら</a>。
 								</p>
 					<dl class="contact-form-checkbox-list">
 						<dt class="contact-form-checkbox">
