@@ -8,10 +8,10 @@
 		<div class="l-tile-grid-4">
 			<ul class="category-nav-list">
 				<li class="category-nav-listin">
-					<a href="#men" class="category-nav-listin-item-large">MEN</a>
+					<a href="#top-men" class="category-nav-listin-item-large">MEN</a>
 				</li>
 				<li class="category-nav-listin">
-					<a href="#women" class="category-nav-listin-item-large">WOMEN</a>
+					<a href="#top-women" class="category-nav-listin-item-large">WOMEN</a>
 				</li>
 			</ul>
 		</div><!-- gird END -->
@@ -19,13 +19,13 @@
 		<div class="l-tile-grid-4">
 			<ul class="category-nav-list test">
 				<li class="category-nav-listin">
-					<a href="#tops" class="category-nav-listin-item">TOPS</a>
+					<a href="#top-tops" class="category-nav-listin-item">TOPS</a>
 				</li>
 				<li class="category-nav-listin">
-					<a href="#bottoms" class="category-nav-listin-item">BOTTOMS</a>
+					<a href="#top-bottoms" class="category-nav-listin-item">BOTTOMS</a>
 				</li>
 				<li class="category-nav-listin">
-					<a href="#accessories" class="category-nav-listin-item hoverlist">ACCESSORIES</a>
+					<a href="#top-accessories" class="category-nav-listin-item hoverlist">ACCESSORIES</a>
 				</li>
 			</ul>
 		</div><!-- gird END -->
@@ -33,13 +33,13 @@
 		<div class="l-tile-grid-4">
 			<ul class="category-nav-list">
 				<li class="category-nav-listin">
-					<a href="#homegoods" class="category-nav-listin-item">HOME/GOODS</a>
+					<a href="#top-homegoods" class="category-nav-listin-item">HOME/GOODS</a>
 				</li>
 				<li class="category-nav-listin">
-					<a href="#sale" class="category-nav-listin-item">SALE</a>
+					<a href="#top-sale" class="category-nav-listin-item">SALE</a>
 					</li>
 				<li class="category-nav-listin">
-					<a href="#all" class="category-nav-listin-item">ALL</a>
+					<a href="#top-all" class="category-nav-listin-item">ALL</a>
 				</li>
 			</ul>
 		</div><!-- gird END -->
@@ -49,7 +49,7 @@
 </nav>
 
 <!-- ALL -->
-<div class="category-tag-wrap" id="all">
+<div class="category-tag-wrap" id="top-all">
 	<div class="category-tag">
 		<p class="category-tagName">ALL</p>
 	</div>
@@ -149,7 +149,7 @@
 </div><!-- category-wrapper END -->
 
 <!-- MEN -->
-<div class="category-tag-wrap" id="men">
+<div class="category-tag-wrap" id="top-men">
 	<div class="category-tag">
 		<p class="category-tagName">MEN</p>
 	</div>
@@ -249,7 +249,7 @@
 </div><!-- category-wrapper END -->
 
 <!-- WOMEN -->
-<div class="category-tag-wrap" id="women">
+<div class="category-tag-wrap" id="top-women">
 	<div class="category-tag">
 		<p class="category-tagName">WOMEN</p>
 	</div>
@@ -349,7 +349,7 @@
 </div><!-- category-wrapper END -->
 
 <!-- TOPS -->
-<div class="category-tag-wrap" id="tops">
+<div class="category-tag-wrap" id="top-tops">
 	<div class="category-tag">
 		<p class="category-tagName">TOPS</p>
 	</div>
@@ -449,7 +449,7 @@
 </div><!-- category-wrapper END -->
 
 <!-- BOTTOMS -->
-<div class="category-tag-wrap" id="bottoms">
+<div class="category-tag-wrap" id="top-bottoms">
 	<div class="category-tag">
 		<p class="category-tagName">BOTTOMS</p>
 	</div>
@@ -549,7 +549,7 @@
 </div><!-- category-wrapper END -->
 
 <!-- ACCESSORIES -->
-<div class="category-tag-wrap">
+<div class="category-tag-wrap" id="top-accessories">
 	<div class="category-tag" id="js-category-tag-acc">
 		<a class="category-tagName category-tagName-link" href="#accessories">ACCESSORIES</a>
 	</div>
@@ -747,7 +747,7 @@
 </div><!-- category-wrapper END -->
 
 <!-- HOME/GOODS -->
-<div class="category-tag-wrap">
+<div class="category-tag-wrap" id="top-homegoods">
 	<div class="category-tag" id="js-category-tag-homeGoods">
 		<a class="category-tagName category-tagName-link" href="#homegoods">HOME/GOODS</a>
 	</div>
@@ -946,7 +946,7 @@
 </div><!-- category-wrapper END -->
 
 <!-- SALE -->
-<div class="category-tag-wrap" id="sale">
+<div class="category-tag-wrap" id="top-sale">
 	<div class="category-tag">
 		<p class="category-tagName">SALE</p>
 	</div>
@@ -1055,7 +1055,7 @@
 					<p class="category-branch-boxin-title">
 						ABOUT STORE
 					</p>
-					<a class="category-branch-boxin-link" href="#">店舗情報はこちら</a>
+					<a class="category-branch-boxin-link" href="<?php echo home_url();?>#storeinfo">店舗情報はこちら</a>
 				</div>
 			</div>
 
@@ -1064,7 +1064,7 @@
 					<p class="category-branch-boxin-title">
 						PRIVACY POLICY
 					</p>
-					<a class="category-branch-boxin-link" href="#">個人情報の取り扱いについて</a>
+					<a class="category-branch-boxin-link" href="<?php echo home_url();?>/privacy_policy">個人情報の取り扱いについて</a>
 				</div>
 			</div>
 
@@ -1073,7 +1073,7 @@
 					<p class="category-branch-boxin-title">
 						CONTACT US
 					</p>
-					<a class="category-branch-boxin-link" href="#">お問い合わせはこちら</a>
+					<a class="category-branch-boxin-link" href="<?php echo home_url();?>/contact">お問い合わせはこちら</a>
 				</div>
 			</div>
 
