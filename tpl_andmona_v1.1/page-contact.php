@@ -31,7 +31,7 @@
 
 						<dd class="contact-form-content-selector-wrapper">
 							<select name="お問い合わせカテゴリー" class="contact-form-content-selector">
-								<option class="contact-form-selector-option noSelect" value="未選択">選択してください</option>
+								<option class="contact-form-selector-option" value="未選択">選択してください</option>
 								<option class="contact-form-selector-option" value="商品について">商品について</option>
 								<option class="contact-form-selector-option" value="お取り扱い店舗について">お取り扱い店舗について</option>
 								<option class="contact-form-selector-option" value="ご意見・ご要望">ご意見・ご要望</option>

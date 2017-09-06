@@ -4551,7 +4551,7 @@ grid system
 }
 
 .detail-listin-txt-inner-span:nth-of-type(1):after {
-  content: '：';
+  content: '£º';
 }
 .detail-listin-txt-inner-span:nth-of-type(2) {
   font-size: 1rem;
@@ -4762,7 +4762,8 @@ grid system
   background: #000;
   text-align: center;
   display: inline-block;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .category-tag + .category-tag {
   margin-left: 1%;
@@ -4862,15 +4863,33 @@ grid system
 
 input {
   width: 100%;
+  height: 40px;
+  border: 1px solid #999;
+  outline: 0;
+  border-radius: 0 0 10px 10px;
+  color: #555;
+  padding: 0 10px;
+}
+input[type="checkbox"] {
+  height: 100%;
 }
 
 label {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+select {
+  outline: 0;
+}
+
+textarea {
+  outline: 0;
+  padding: 10px 10px;
 }
 
 .form-must-mark {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding-left: 3px;
 }
 .form-must-mark:after {
@@ -4884,17 +4903,23 @@ label {
 .contact-form-content-selector {
   width: 100%;
   font-size: 1.1rem;
-  height: 25px;
+  height: 50px;
   color: #555;
+  border-radius: 0 0 10px 10px;
 }
 
 .contact-form-letter {
   width: 100%;
+  border-radius: 0 0 15px 15px;
+  color: #777;
+  font-family: sans-serif;
 }
 
 .contact-form-title {
   text-align: left;
-  margin-bottom: 5px;
+  background: #d1d1d1;
+  padding: 15px 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 .contact-form-title + .contact-form-content-letter {
   margin-bottom: 15px;
@@ -4906,6 +4931,7 @@ label {
 .form-label-inlead {
   font-size: 1rem;
   text-align: left;
+  font-weight: 600;
 }
 
 .form-label-inlead-link {
@@ -4943,6 +4969,8 @@ label {
   font-weight: 500;
   padding-left: 20px;
   font-size: 1.2rem;
+  border: none;
+  letter-spacing: 1rem;
 }
 .form-btn:hover {
   background: #ef018d;
@@ -4951,7 +4979,7 @@ label {
 .form-btn:after {
   font-family: FontAwesome;
   content: '\f105';
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 1.5rem;
 }
 
@@ -4966,6 +4994,11 @@ label {
   font-size: 6rem;
   font-weight: 500;
   width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .privacy-title {
+    font-size: 3rem;
+  }
 }
 
 .privacy-lead-Description {
