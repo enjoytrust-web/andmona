@@ -17,7 +17,7 @@
 <div class="form-wrapper">
 	<div class="l-container">
 		<div class="l-row">
-			<div class="l-grid-5 grid-center">
+			<div class="l-grid-6">
 
 			<!-- お問い合わせカテゴリー -->
 				<form class="contact-form-post-wrapper" action="mail.php" method="post">
@@ -75,6 +75,8 @@
 							<input type="text" name="フリガナ">
 						</dd>
 					</dl>
+
+
 			<!-- E-mail -->
 					<dl class="contact-form-list">
 						<dt class="contact-form-title">
@@ -112,16 +114,16 @@
 						</dd>
 					</dl>
 			<!-- 個人情報取り扱い　同意 -->
-								<p class="form-label-inlead">ご登録いただくお客様の個人情報は、お客様からのお問い合わせに回答するために利用させていただきます。<br>
+
+					<dl class="contact-form-checkbox-list">
+						<dt class="form-label-inlead">
+								ご登録いただくお客様の個人情報は、お客様からのお問い合わせに回答するために利用させていただきます。
 								個人情報の取り扱いについては
 								<a class="form-label-inlead-link" href="<?php echo home_url();?>/privacy_policy">こちら</a>。
-								</p>
-					<dl class="contact-form-checkbox-list">
-						<dt class="contact-form-checkbox">
-								<input type="checkbox" name="個人情報の取り扱い" value="同意する" id="agree">
 						</dt>
 
-						<dd class="contact-form-checbox-lead">
+						<dd class="form-checbox">
+								<input type="checkbox" name="個人情報の取り扱い" value="同意する" id="agree">
 								<label for="agree">上記に同意する<span class="form-must-mark"></span></label>
 						</dd>
 					</dl>
