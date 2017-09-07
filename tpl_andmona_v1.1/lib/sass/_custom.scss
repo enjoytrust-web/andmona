@@ -1131,9 +1131,13 @@ $gridPadding: 30px;
 
 //contact.php
 .contact-wrapper {
+  // background: #c4d8e1;
   background: #f1f1f1;
   text-align: center;
-  padding: 130px 0 80px 0;
+  padding: 130px 0 5px 0;
+  @include max(767) {
+    padding: 130px 0 50px 0;
+  }
 }
 .contact-title {
   font-family: 'Raleway',sans-serif;
@@ -1142,6 +1146,12 @@ $gridPadding: 30px;
   width: 100%;
   @include max(767) {
     font-size: 5rem;
+  }
+}
+.form-gridin-box {
+  padding: 0 15px;
+  @include max(767) {
+    padding:0;
   }
 }
 

@@ -17,11 +17,13 @@
 <div class="form-wrapper">
 	<div class="l-container">
 		<div class="l-row">
-			<div class="l-grid-6">
 
 			<!-- お問い合わせカテゴリー -->
 				<form class="contact-form-post-wrapper" action="mail.php" method="post">
 
+		<div class="l-grid-6">
+			<div class="l-row">
+				<div class="form-gridin-box">
 					<dl class="contact-form-list">
 						<dt class="contact-form-title">
 							<label for="name">
@@ -75,8 +77,13 @@
 							<input type="text" name="フリガナ">
 						</dd>
 					</dl>
+				</div>
+			</div><!-- l-row END -->
+		</div><!-- grid END -->
 
-
+		<div class="l-grid-6">
+			<div class="l-row">
+				<div class="form-gridin-box">
 			<!-- E-mail -->
 					<dl class="contact-form-list">
 						<dt class="contact-form-title">
@@ -127,13 +134,15 @@
 								<label for="agree">上記に同意する<span class="form-must-mark"></span></label>
 						</dd>
 					</dl>
-
 					<div class="form-btn-box">
 						<button type="submit" value="送信" class="form-btn">送信</button>
 					</div>
-
-				</form>
+				</div>
 			</div>
+		</div><!-- grid END -->
+
+			</form>
+
 		</div>
 	</div>
 </div>
