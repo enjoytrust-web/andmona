@@ -50,9 +50,7 @@
 
 <!-- ALL -->
 <div class="category-tag-wrap" id="top-all">
-	<div class="category-tag">
-		<p class="category-tagName">ALL</p>
-	</div>
+	<p class="category-tag">ALL</p>
 </div>
 
 <div class="category-wrapper">
@@ -150,9 +148,7 @@
 
 <!-- MEN -->
 <div class="category-tag-wrap" id="top-men">
-	<div class="category-tag">
-		<p class="category-tagName">MEN</p>
-	</div>
+	<p class="category-tag">MEN</p>
 </div>
 
 <div class="category-wrapper">
@@ -250,9 +246,7 @@
 
 <!-- WOMEN -->
 <div class="category-tag-wrap" id="top-women">
-	<div class="category-tag">
-		<p class="category-tagName">WOMEN</p>
-	</div>
+	<p class="category-tag">WOMEN</p>
 </div>
 
 <div class="category-wrapper">
@@ -350,9 +344,7 @@
 
 <!-- TOPS -->
 <div class="category-tag-wrap" id="top-tops">
-	<div class="category-tag">
-		<p class="category-tagName">TOPS</p>
-	</div>
+	<p class="category-tag">TOPS</p>
 </div>
 
 <div class="category-wrapper">
@@ -450,9 +442,7 @@
 
 <!-- BOTTOMS -->
 <div class="category-tag-wrap" id="top-bottoms">
-	<div class="category-tag">
-		<p class="category-tagName">BOTTOMS</p>
-	</div>
+	<p class="category-tag">BOTTOMS</p>
 </div>
 
 <div class="category-wrapper">
@@ -550,13 +540,13 @@
 
 <!-- ACCESSORIES -->
 <div class="category-tag-wrap" id="top-accessories">
-	<div class="category-tag" id="js-category-tag-acc">
-		<p class="category-tagName category-tagName-link" href="#accessories">ACCESSORIES</p>
-	</div>
+	<p class="category-tag category-tagName-link" id="js-category-tag-acc">
+    ACCESSORIES
+	</p>
 
-	<div class="category-tag" id="js-category-tag-beauty">
-		<p class="category-tagName category-tagName-link" href="#beauty">BEAUTY</p>
-	</div>
+	<p class="category-tag category-tagName-link" id="js-category-tag-beauty">
+    BEAUTY
+	</p>
 </div>
 <!-- ACCESSORIES CONTENT -->
 <div class="category-wrapper category-tab-content active" id="accessories">
@@ -748,13 +738,13 @@
 
 <!-- HOME/GOODS -->
 <div class="category-tag-wrap" id="top-homegoods">
-	<div class="category-tag" id="js-category-tag-homeGoods">
-		<p class="category-tagName category-tagName-link" href="#homegoods">HOME/GOODS</p>
-	</div>
+	<p class="category-tag category-tagName-link" id="js-category-tag-homeGoods">
+    HOME/GOODS
+	</p>
 
-		<div class="category-tag" id="js-category-tag-stationeries">
-		<p class="category-tagName category-tagName-link" href="#stationeries">STATIONERIES</p>
-	</div>
+		<p class="category-tag category-tagName-link" id="js-category-tag-stationeries">
+    STATIONERIES
+	</p>
 </div>
 
 <!-- HOMEGOODS CONTENT -->
@@ -947,9 +937,7 @@
 
 <!-- SALE -->
 <div class="category-tag-wrap" id="top-sale">
-	<div class="category-tag">
-		<p class="category-tagName">SALE</p>
-	</div>
+	<p class="category-tag">SALE</p>
 </div>
 
 <div class="category-wrapper">

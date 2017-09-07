@@ -31,7 +31,7 @@ $(function(){
 //ページ内リンク　ずれ補正
 $(function () {
  var headerHight = 200; //ヘッダの高さ
- $('a[href^=#top-]').click(function(){
+ $('a[href^=#]').click(function(){
      var href= $(this).attr("href");
        var target = $(href == "#" || href == "" ? 'html' : href);
         var position = target.offset().top-headerHight; //ヘッダの高さ分位置をずらす

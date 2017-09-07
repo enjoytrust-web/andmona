@@ -4766,14 +4766,26 @@ grid system
   background: #000;
   text-align: center;
   display: inline-block;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px 5px 0 0;
+  color: #eee;
+  font-family: 'Raleway',sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+@media only screen and (max-width: 767px) {
+  .category-tag {
+    font-size: 1.5rem;
+  }
 }
 .category-tag + .category-tag {
   margin-left: 1%;
 }
 .category-tag.active {
   background: #f1f1f1;
+}
+.category-tag.active .category-tagName-link {
+  color: #000;
 }
 
 .category-tagName {
@@ -4793,7 +4805,6 @@ grid system
   color: #eee;
 }
 .category-tagName-link:hover {
-  color: #ef018d;
   cursor: pointer;
 }
 .category-tagName-link.active {
@@ -4876,12 +4887,14 @@ input {
   height: 40px;
   border: 1px solid #999;
   outline: 0;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
   color: #555;
   padding: 0 10px;
 }
 input[type="checkbox"] {
   height: 100%;
+  widows: 100%;
+  border: 1px solid #999;
 }
 
 label {
@@ -4915,12 +4928,12 @@ textarea {
   font-size: 1.1rem;
   height: 50px;
   color: #555;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
 }
 
 .contact-form-letter {
   width: 100%;
-  border-radius: 0 0 15px 15px;
+  border-radius: 15px;
   color: #777;
   font-family: sans-serif;
 }
@@ -4928,11 +4941,7 @@ textarea {
 .contact-form-title {
   text-align: left;
   background: #f1f1f1;
-  border-top: 1px solid #888;
-  border-right: 1px solid #888;
-  border-left: 1px solid #888;
   padding: 10px 10px;
-  border-radius: 10px 10px 0px 0px;
 }
 .contact-form-title + .contact-form-content-letter {
   margin-bottom: 15px;
@@ -4984,6 +4993,7 @@ textarea {
   font-size: 1.2rem;
   border: none;
   letter-spacing: 1rem;
+  border-radius: 10px;
 }
 .form-btn:hover {
   background: #ef018d;
