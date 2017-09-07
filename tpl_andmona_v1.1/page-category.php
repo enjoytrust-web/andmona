@@ -551,11 +551,11 @@
 <!-- ACCESSORIES -->
 <div class="category-tag-wrap" id="top-accessories">
 	<div class="category-tag" id="js-category-tag-acc">
-		<a class="category-tagName category-tagName-link" href="#accessories">ACCESSORIES</a>
+		<p class="category-tagName category-tagName-link" href="#accessories">ACCESSORIES</p>
 	</div>
 
 	<div class="category-tag" id="js-category-tag-beauty">
-		<a class="category-tagName category-tagName-link" href="#beauty">BEAUTY</a>
+		<p class="category-tagName category-tagName-link" href="#beauty">BEAUTY</p>
 	</div>
 </div>
 <!-- ACCESSORIES CONTENT -->
@@ -749,11 +749,11 @@
 <!-- HOME/GOODS -->
 <div class="category-tag-wrap" id="top-homegoods">
 	<div class="category-tag" id="js-category-tag-homeGoods">
-		<a class="category-tagName category-tagName-link" href="#homegoods">HOME/GOODS</a>
+		<p class="category-tagName category-tagName-link" href="#homegoods">HOME/GOODS</p>
 	</div>
 
 		<div class="category-tag" id="js-category-tag-stationeries">
-		<a class="category-tagName category-tagName-link" href="#stationeries">STATIONERIES</a>
+		<p class="category-tagName category-tagName-link" href="#stationeries">STATIONERIES</p>
 	</div>
 </div>
 

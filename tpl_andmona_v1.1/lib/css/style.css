@@ -4794,6 +4794,7 @@ grid system
 }
 .category-tagName-link:hover {
   color: #ef018d;
+  cursor: pointer;
 }
 .category-tagName-link.active {
   color: #000;
