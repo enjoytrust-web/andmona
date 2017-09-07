@@ -32,7 +32,7 @@
 </section>
 
 
-<section class="l-wrapper" style="background:#f1f1f1;">
+<section class="l-wrapper" id="newarrival" style="background:#f1f1f1;">
   <h2 class="section-header">
     NEW ARRIVAL
     <span class="section-header-jp">新作</span>
@@ -48,7 +48,7 @@
       if( $posts ) : foreach( $posts as $post ) : setup_postdata( $post ); //記事がある場合 ?>
     <div class="l-tile-grid-3 top-new-arrival">
       <div class="content-item-box">
-        <a href="#" class="content-item-box-link">
+        <a href="" class="content-item-box-link">
           <figure class="content-item-productpics"style="background-image: url('<?php the_field('product_mainpics');?>')"></figure>
           <h2 class="content-item-productname">
             <?php the_field('product_name'); ?>

@@ -49,22 +49,25 @@
   <nav class="g-nav">
     <ul class="g-nav-list">
       <li class="g-nav-listin">
-        <a href="" class="g-nav-listin-item">
+        <a href="<?php echo home_url();?>" class="g-nav-listin-item">
           HOME
         </a>
         <!-- <a href="" class="g-nav-listin-item">
           COLLECTION
         </a> -->
-        <a href="" class="g-nav-listin-item">
+        <a href="<?php echo home_url();?>/#newarrival" class="g-nav-listin-item">
           NEW ARRIVAL
+        </a>
+        <a href="<?php echo home_url();?>/category" class="g-nav-listin-item">
+          CATEGORY
         </a>
         <a href="" class="g-nav-listin-item">
           PICK UP
         </a>
-        <a href="" class="g-nav-listin-item">
+        <a href="<?php echo home_url();?>#storeinfo" class="g-nav-listin-item">
           STORE INFO
         </a>
-        <a href="" class="g-nav-listin-item">
+        <a href="<?php echo home_url();?>/contact" class="g-nav-listin-item">
           CONTACT
         </a>
       </li>

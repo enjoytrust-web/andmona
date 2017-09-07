@@ -4128,6 +4128,7 @@ grid system
 
 .top-text-link {
   color: #000;
+  display: inline-block;
 }
 .top-text-link:before {
   font-family: FontAwesome;
@@ -4140,10 +4141,12 @@ grid system
 
 .top-text-number {
   color: #000;
+  display: inline-block;
 }
 
 .information-item-link {
   margin-top: 20px;
+  display: inline-block;
 }
 
 .information-item-logo {
@@ -4551,7 +4554,8 @@ grid system
 }
 
 .detail-listin-txt-inner-span:nth-of-type(1):after {
-  content: '£º';
+  content: ':';
+  padding: 0 3px;
 }
 .detail-listin-txt-inner-span:nth-of-type(2) {
   font-size: 1rem;
