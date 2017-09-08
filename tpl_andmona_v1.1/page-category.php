@@ -540,7 +540,7 @@
 
 <!-- ACCESSORIES -->
 <div class="category-tag-wrap" id="top-accessories">
-	<p class="category-tag category-tagName-link" id="js-category-tag-acc">
+	<p class="category-tag category-tagName-link active" id="js-category-tag-acc">
     ACCESSORIES
 	</p>
 
@@ -738,7 +738,7 @@
 
 <!-- HOME/GOODS -->
 <div class="category-tag-wrap" id="top-homegoods">
-	<p class="category-tag category-tagName-link" id="js-category-tag-homeGoods">
+	<p class="category-tag category-tagName-link active" id="js-category-tag-homeGoods">
     HOME/GOODS
 	</p>
 

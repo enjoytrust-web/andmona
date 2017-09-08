@@ -1036,11 +1036,11 @@ $gridPadding: 30px;
 }
 
 .category-tag {
-  background: #000;
+  background: #f1f1f1;
   text-align: center;
   display: inline-block;
   border-radius: 5px 5px 0 0;
-  color: #eee;
+  color: #000;
   font-family: 'Raleway',sans-serif;
   font-size: 2rem;
   font-weight: 600;
@@ -1052,10 +1052,10 @@ $gridPadding: 30px;
     margin-left: 1%;
   }
   &.active {
-  background: #f1f1f1;
+  background: #a788c8;
 
     .category-tagName-link {
-      color:#000;
+      color:#eee;
     }
   }
 }
@@ -1076,10 +1076,12 @@ $gridPadding: 30px;
 }
 .category-tagName-link {
   color: #eee;
+  background: #b99fd5;
   &:hover {
     cursor: pointer;
   }
   &.active {
+    background: #f1f1f1;
     color: #000;
   }
 }
@@ -1209,7 +1211,7 @@ button[type="submit"] {
 }
 .contact-form-letter {
   width: 100%;
-  height: 217px;
+  height: 280px;
   border-radius: 15px;
   color: #777;
   font-family: sans-serif;
@@ -1301,7 +1303,7 @@ input[type="checkbox"] {
 }
 
 .form-btn-reset {
-  background: #a788c8;
+  background: #b99fd5;
   outline: 0;
   letter-spacing: 0.5rem;
   font-size: 1.15rem;
