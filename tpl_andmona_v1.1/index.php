@@ -61,6 +61,11 @@
     </div>
   <?php endforeach ; ?>
   <?php endif; ?>
+
+</div>
+
+<div class="see-all-products-box">
+  <a href="<?php echo home_url;?>/category" class="see-all-products">SEE ALL PRODUCTS</a>
 </div>
 
 </section>

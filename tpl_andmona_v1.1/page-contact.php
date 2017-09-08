@@ -31,11 +31,6 @@
 						<a class="form-label-inlead-link" href="<?php echo home_url();?>/privacy_policy">こちら</a>。
 					</p>
 
-					<p class="form-checbox">
-								<input type="checkbox" name="個人情報の取り扱い" value="同意する" id="agree">
-								<label for="agree">上記に同意する<span class="form-must-mark"></span></label>
-						</p>
-
 					<dl class="contact-form-list">
 						<dt class="contact-form-title">
 							<label for="name">
@@ -134,6 +129,10 @@
 						</dd>
 					</dl>
 			<!-- 個人情報取り扱い　同意 -->
+					<p class="form-checbox">
+							<input type="checkbox" name="個人情報の取り扱い" value="同意する" id="agree">
+							<label for="agree">プライバシーポリシーに同意する<span class="form-must-mark"></span></label>
+					</p>
 
 				</div>
 			</div>
