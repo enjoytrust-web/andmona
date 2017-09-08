@@ -3851,11 +3851,18 @@ grid system
 .see-all-products {
   font-family: 'Raleway',sans-serif;
   display: inline-block;
-  padding: 20px 35px;
-  border: 2px solid #555;
-  font-weight: 500;
-  color: #555;
-  font-size: 1.3rem;
+  padding: 15px 70px;
+  border: 2px solid #ef018d;
+  font-weight: 600;
+  color: #ef018d;
+  font-size: 1.4rem;
+  border-radius: 100px;
+}
+.see-all-products:after {
+  font-family: FontAwesome;
+  content: '\f105';
+  margin-left: 10px;
+  font-weight: 600;
 }
 .see-all-products:hover {
   -webkit-transform: scale(1.05, 1.05);
@@ -3863,6 +3870,14 @@ grid system
   -ms-transform: scale(1.05, 1.05);
   -o-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05);
+  background: #ef018d;
+  color: #eee;
+}
+@media only screen and (max-width: 767px) {
+  .see-all-products {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+  }
 }
 
 .maincatch {
