@@ -4959,6 +4959,7 @@ button[type="submit"] {
 
 .contact-form-letter {
   width: 100%;
+  height: 217px;
   border-radius: 15px;
   color: #777;
   font-family: sans-serif;
@@ -4980,6 +4981,7 @@ button[type="submit"] {
   text-align: left;
   font-weight: 600;
   font-size: 1rem;
+  padding: 15px 0;
 }
 
 .form-label-inlead-link {
@@ -5004,7 +5006,8 @@ button[type="submit"] {
 }
 
 .form-checbox {
-  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
 }
 
 input[type="checkbox"] {
@@ -5016,11 +5019,17 @@ input[type="checkbox"] {
 }
 
 .form-btn-box {
-  margin-top: 40px;
+  margin-top: 75px;
   text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .form-btn-box {
+    margin-top: 40px;
+  }
 }
 
 .form-btn {
+  font-family: 'Raleway',sans-serif;
   width: 100%;
   height: 45px;
   background: #000;
@@ -5029,7 +5038,7 @@ input[type="checkbox"] {
   padding-left: 20px;
   font-size: 1.2rem;
   border: none;
-  letter-spacing: 1rem;
+  letter-spacing: 0.5rem;
   border-radius: 10px;
 }
 .form-btn:hover {
@@ -5041,6 +5050,13 @@ input[type="checkbox"] {
   content: '\f105';
   margin-left: 10px;
   font-size: 1.5rem;
+}
+
+.form-btn-reset {
+  background: #a788c8;
+  outline: 0;
+  letter-spacing: 0.5rem;
+  font-size: 1.15rem;
 }
 
 .privacy-wrapper {

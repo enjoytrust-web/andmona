@@ -24,6 +24,18 @@
 		<div class="l-grid-6">
 			<div class="l-row">
 				<div class="form-gridin-box">
+
+					<p class="form-label-inlead">
+						ご登録いただくお客様の個人情報は、お客様からのお問い合わせに回答するために利用させていただきます。
+						個人情報の取り扱いについては
+						<a class="form-label-inlead-link" href="<?php echo home_url();?>/privacy_policy">こちら</a>。
+					</p>
+
+					<p class="form-checbox">
+								<input type="checkbox" name="個人情報の取り扱い" value="同意する" id="agree">
+								<label for="agree">上記に同意する<span class="form-must-mark"></span></label>
+						</p>
+
 					<dl class="contact-form-list">
 						<dt class="contact-form-title">
 							<label for="name">
@@ -53,6 +65,13 @@
 							<textarea name="お問い合わせ内容" class="contact-form-letter" cols="30" rows="10"></textarea>
 						</dd>
 					</dl>
+				</div>
+			</div><!-- l-row END -->
+		</div><!-- grid END -->
+
+		<div class="l-grid-6">
+			<div class="l-row">
+				<div class="form-gridin-box">
 			<!-- 名前 -->
 					<dl class="contact-form-list">
 						<dt class="contact-form-title">
@@ -77,13 +96,7 @@
 							<input type="text" name="フリガナ">
 						</dd>
 					</dl>
-				</div>
-			</div><!-- l-row END -->
-		</div><!-- grid END -->
 
-		<div class="l-grid-6">
-			<div class="l-row">
-				<div class="form-gridin-box">
 			<!-- E-mail -->
 					<dl class="contact-form-list">
 						<dt class="contact-form-title">
@@ -122,24 +135,22 @@
 					</dl>
 			<!-- 個人情報取り扱い　同意 -->
 
-					<dl class="contact-form-checkbox-list">
-						<dt class="form-label-inlead">
-								ご登録いただくお客様の個人情報は、お客様からのお問い合わせに回答するために利用させていただきます。
-								個人情報の取り扱いについては
-								<a class="form-label-inlead-link" href="<?php echo home_url();?>/privacy_policy">こちら</a>。
-						</dt>
-
-						<dd class="form-checbox">
-								<input type="checkbox" name="個人情報の取り扱い" value="同意する" id="agree">
-								<label for="agree">上記に同意する<span class="form-must-mark"></span></label>
-						</dd>
-					</dl>
-					<div class="form-btn-box">
-						<button type="submit" value="送信" class="form-btn">送信</button>
-					</div>
 				</div>
 			</div>
 		</div><!-- grid END -->
+
+
+		<div class="l-grid-3">
+			<div class="form-btn-box">
+				<button type="submit" value="送信" class="form-btn">SEND</button>
+			</div>
+		</div>
+
+		<div class="l-grid-2">
+			<div class="form-btn-box">
+				<button type="reset" value="リセット" class="form-btn form-btn-reset">RESET</button>
+			</div>
+		</div>
 
 			</form>
 
